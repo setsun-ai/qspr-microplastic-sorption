@@ -1,0 +1,23 @@
+QSPR auto-workflow summary
+================================================================================
+
+Input: data_qsar_pls.xlsx
+Split: Kennard-Stone; VS=10; TS=25, VS=10
+Target: EXP LogKda
+
+Selected models ranked by recommendation score (lower is better):
+
+          Model                                                                                                                                                               Descriptors   Q2_LOO   RMSECV    TS_R2    VS_R2  VS_RMSE  max_abs_intercorr  n_VS_outside_AD  Recommendation_score_lower_better
+   SVR_RBF_grid                                                                                                                                                RDF135e; CrippenLogP; SHBa 0.924854 0.410865 0.950326 0.962891 0.297700           0.533944                0                           0.708566
+     MLR_allsub                                                                                                                                           ALogP; CrippenLogP; SHBa; XLogP 0.915740 0.435068 0.945777 0.969554 0.269652           0.835288                3                           0.924719
+kNN_k2_distance                                                                                                                                                         TPSA; CrippenLogP 0.893862 0.488294 0.990723 0.952502 0.336805           0.662606                1                           1.175099
+  PLS_TOP19_LV4 RDF135e; RDF135u; RDF135s; RDF135p; RDF135i; ATSC3c; log D ; AATS1i; ALogP; ETA_dEpsilon_D; SHBd; minHBd; C1SP2; nHeteroRing; nN_3; maxHBd; nHBAcc_Lipinski; WTPT-5; TPSA 0.898847 0.476688 0.953583 0.982809 0.202627           1.000000                3                           1.204315
+
+Automatic interpretation:
+- SVR_RBF_grid: good internal predictive ability by LOO-CV; strong external validation R2; low CV-to-VS RMSE gap; no VS compounds outside AD/residual limits.
+- MLR_allsub: good internal predictive ability by LOO-CV; strong external validation R2; low CV-to-VS RMSE gap; descriptor intercorrelation acceptable for MLR; compact and interpretable descriptor set; some VS compounds have high leverage; predictions require AD caution.
+- kNN_k2_distance: good internal predictive ability by LOO-CV; strong external validation R2; low CV-to-VS RMSE gap; some VS residual outliers; predictions require caution.
+- PLS_TOP19_LV4: good internal predictive ability by LOO-CV; strong external validation R2; low CV-to-VS RMSE gap; some VS compounds have high leverage; predictions require AD caution.
+
+Important methodological note:
+External literature values were not used for descriptor selection. If a model matches two external values to hundredths only after tuning, it is not valid external prediction but overfitting.

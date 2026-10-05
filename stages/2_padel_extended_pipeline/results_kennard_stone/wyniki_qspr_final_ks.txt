@@ -1,0 +1,33 @@
+QSPR final pipeline based on lecturer's Kennard-Stone methodology
+========================================================================
+
+Excel: data_qsar_pls.xlsx
+Sheet: PROJEKT
+Output: qspr_final_ks_teacher_outputs
+Split: Kennard-Stone, TS=25, VS=10
+Filters: var>1e-08, |r_y|>=0.3, |r_XX|<=0.85
+
+Selected models and metrics:
+                 Model Family  n_descriptors                                                                                                                 descriptors  selection_Q2_LOO  selection_RMSECV  Q2_LOO_recalculated  RMSECV_recalculated  TS_RMSE   TS_MAE    TS_R2  VS_RMSEP   VS_MAE    VS_R2  max_abs_intercorrelation_TS  effective_rank_TS  n_TS  n_VS                                       params                                                                                              notes
+MLR_allsub_TOP10_Q2LOO    MLR              4                                                                                            CrippenLogP; SHBa; ALogP; RDF30i          0.930880          0.394048             0.930880             0.394048 0.331241 0.261431 0.951158  0.254264 0.197829 0.972930                     0.835288                  4    25    10                                           {}                                all-subsets 2-4 descriptors from TOP-10 |r_y|; criterion=max Q2_LOO
+         PLS_TOP15_LV2    PLS             15 Mi; CrippenLogP; AATS3i; XLogP; SHBa; ALogP; GATS3c; RDF30i; AATSC3s; FPSA-2; LipoaffinityIndex; εα; ATSC4s; AATS5i; RDF20i          0.858348          0.564102             0.858348             0.564102 0.363816 0.293821 0.941079  0.255199 0.191864 0.972731                     0.848348                 15    25    10 {"n_components": 2, "n_raw_descriptors": 15} TOP-15 descriptors by |r_y|; LV selected by Q2_LOO/RMSECV; PLS model may use correlated predictors
+      SVR_RFE_RBF_grid    SVR              2                                                                                                                 FPSA-2; AMR          0.924617          0.411513             0.924617             0.411513 0.204607 0.158942 0.981364  0.326521 0.263874 0.955358                     0.017543                  2    25    10     {"C": 100, "epsilon": 0.1, "gamma": 0.1}                        RFE ranking on linear SVR; descriptor count 2-4; RBF SVR grid-search by LOO
+   kNN_allsub_TOP10_k2    kNN              2                                                                                                         CrippenLogP; AATS3i          0.845402          0.589316             0.845402             0.589316 0.287527 0.200480 0.963199  0.494581 0.371900 0.897578                     0.671483                  2    25    10     {"n_neighbors": 2, "weights": "uniform"}                                   all-subsets 2-4 descriptors at k=3, then k=2..7 tuning by Q2_LOO
+
+PLS VIP ranking:
+       descriptor      VIP  VIP_gt_1
+      CrippenLogP 1.229450      True
+               Mi 1.195171      True
+             SHBa 1.084575      True
+           AATS3i 1.080449      True
+            XLogP 1.049351      True
+            ALogP 1.042722      True
+           GATS3c 0.986032     False
+           RDF30i 0.944659     False
+          AATSC3s 0.936962     False
+           FPSA-2 0.925531     False
+               εα 0.907893     False
+LipoaffinityIndex 0.898559     False
+           AATS5i 0.892775     False
+           ATSC4s 0.879007     False
+           RDF20i 0.852887     False

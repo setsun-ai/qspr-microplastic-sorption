@@ -1,0 +1,26 @@
+﻿Model,Family,index_original,Organic compounds,EXP LogKda,LOO_predicted,LOO_residual
+kNN_allsub_TOP10_k2,kNN,0,Trimethoprim,0.594,1.7165,-1.1225
+kNN_allsub_TOP10_k2,kNN,1,Sulfadiazine,0.853,1.587,-0.734
+kNN_allsub_TOP10_k2,kNN,4,γ-Hexachlorocyclohexane,2.58,0.7235,1.8565
+kNN_allsub_TOP10_k2,kNN,6,Phenanthrene,4.0,4.635,-0.6349999999999998
+kNN_allsub_TOP10_k2,kNN,7,Anthracene,4.29,4.49,-0.20000000000000018
+kNN_allsub_TOP10_k2,kNN,8,Pentachlorobenzene,4.5,5.05,-0.5499999999999998
+kNN_allsub_TOP10_k2,kNN,9,Fluoranthene,4.79,5.154999999999999,-0.3649999999999993
+kNN_allsub_TOP10_k2,kNN,10,Pyrene,4.8,5.15,-0.35000000000000053
+kNN_allsub_TOP10_k2,kNN,11,"2,3-dichlorobiphenyl",4.98,5.035,-0.054999999999999716
+kNN_allsub_TOP10_k2,kNN,12,"2,4′-dichlorobiphenyl",4.98,5.035,-0.054999999999999716
+kNN_allsub_TOP10_k2,kNN,13,Hexachlorobenzene,5.01,4.795,0.21499999999999986
+kNN_allsub_TOP10_k2,kNN,14,"2,4,4′-trichlorobiohenyl",5.09,5.05,0.040000000000000036
+kNN_allsub_TOP10_k2,kNN,15,"2,2′,5,5′-tetrachlorobiphenyl",5.09,5.32,-0.23000000000000043
+kNN_allsub_TOP10_k2,kNN,18,"2,2′,3,5′,6-pentachlorobiphenyl",5.26,5.57,-0.3100000000000005
+kNN_allsub_TOP10_k2,kNN,19,"2,2′,3,3′,4,4′-hexachlorobiphenyl",5.45,5.98,-0.5300000000000002
+kNN_allsub_TOP10_k2,kNN,20,"2,2′,3,4′,5-pentachlorobiphenyl",5.51,5.445,0.0649999999999995
+kNN_allsub_TOP10_k2,kNN,22,Chrysene,5.51,4.795,0.7149999999999999
+kNN_allsub_TOP10_k2,kNN,23,"3,3′,4,4′-tetrachlorobiphenyl",5.63,5.445,0.1849999999999996
+kNN_allsub_TOP10_k2,kNN,24,"2,3,3′,4′,6-pentachlorobiphenyl",5.63,5.385,0.2450000000000001
+kNN_allsub_TOP10_k2,kNN,26,"2,2′,3,4′,5,5′,6-heptachlorobiphenyl",5.73,5.98,-0.25
+kNN_allsub_TOP10_k2,kNN,28,"2,2′,3,4,4′,5-hexachlorobiphenyl",5.77,5.82,-0.05000000000000071
+kNN_allsub_TOP10_k2,kNN,30,Benzo[a]pyrene,6.1,6.845000000000001,-0.745000000000001
+kNN_allsub_TOP10_k2,kNN,32,"2,2′,4,4′,5,5′-hexachlorobiphenyl",6.19,5.609999999999999,0.580000000000001
+kNN_allsub_TOP10_k2,kNN,33,"Benzo[g,h,i]perylene",6.69,6.55,0.14000000000000057
+kNN_allsub_TOP10_k2,kNN,34,"Dibenz[a,h]anthracene",7.0,6.395,0.6050000000000004

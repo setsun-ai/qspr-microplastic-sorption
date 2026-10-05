@@ -1,0 +1,712 @@
+descriptor,action,reason,max_abs_corr_to_kept,most_correlated_kept
+ALogP,kept,first/highest rank,0.0,
+TPSA,kept_forced,required_keep although |rXX|=0.896 > 0.85,0.8963708518532415,ALogP
+CrippenLogP,kept,max |rXX| <= 0.85,0.835287788555868,ALogP
+SHBa,kept_forced,required_keep although |rXX|=0.941 > 0.85,0.9412785269798237,TPSA
+minHBa,kept_forced,required_keep although |rXX|=0.892 > 0.85,0.8923694716663777,SHBa
+RDF30i,kept,max |rXX| <= 0.85,0.7903582204288084,minHBa
+AATS4i,kept,max |rXX| <= 0.85,0.7228945696818674,SHBa
+naAromAtom,kept,max |rXX| <= 0.85,0.787709207210748,AATS4i
+McGowan_Volume,kept,max |rXX| <= 0.85,0.5381119358641362,CrippenLogP
+RDF135e,kept,max |rXX| <= 0.85,0.39606667605491386,naAromAtom
+RDF135u,dropped,collinear with RDF135e,1.0,RDF135e
+RDF135s,dropped,collinear with RDF135e,1.0,RDF135e
+RDF135p,dropped,collinear with RDF135e,1.0,RDF135e
+RDF135i,dropped,collinear with RDF135e,1.0,RDF135e
+ATSC3c,dropped,collinear with TPSA,0.9446583343869157,TPSA
+log D ,dropped,collinear with ALogP,0.948664346428864,ALogP
+AATS1i,dropped,collinear with TPSA,0.9435315866818991,TPSA
+ETA_dEpsilon_D,dropped,collinear with TPSA,0.9943801592558879,TPSA
+SHBd,dropped,collinear with TPSA,0.9920862039372056,TPSA
+minHBd,dropped,collinear with TPSA,0.994881040586482,TPSA
+C1SP2,dropped,collinear with TPSA,0.9963883518900607,TPSA
+nHeteroRing,dropped,collinear with TPSA,0.9963883518900607,TPSA
+nN_3,dropped,collinear with TPSA,0.9963883518900607,TPSA
+maxHBd,dropped,collinear with TPSA,0.9890394721270307,TPSA
+nHBAcc_Lipinski,dropped,collinear with TPSA,0.9864114306669695,TPSA
+WTPT-5,dropped,collinear with TPSA,0.9982807846251519,TPSA
+SM1_Dzv,dropped,collinear with ALogP,0.9564299072382252,ALogP
+nHBDon_Lipinski,dropped,collinear with TPSA,0.9730086486091839,TPSA
+nHBAcc2,dropped,collinear with TPSA,0.999955051699918,TPSA
+JGI9,dropped,collinear with TPSA,0.9361680895500797,TPSA
+BCUTc-1l,dropped,collinear with TPSA,0.9225534573970888,TPSA
+nO,dropped,collinear with TPSA,0.9580765702855858,TPSA
+SM1_Dzp,dropped,collinear with ALogP,0.9574903696238974,ALogP
+TopoPSA,dropped,collinear with TPSA,0.9958844019358115,TPSA
+RPSA,dropped,collinear with TPSA,0.9957011401506294,TPSA
+RHSA,dropped,collinear with TPSA,0.9957011401506288,TPSA
+AATS2i,dropped,collinear with SHBa,0.915128573202764,SHBa
+AATS0i,dropped,collinear with TPSA,0.8648439646734145,TPSA
+WTPT-4,dropped,collinear with TPSA,0.9405292074684822,TPSA
+nHBAcc,dropped,collinear with TPSA,0.9927422406666427,TPSA
+Mi,dropped,collinear with TPSA,0.8544536053069515,TPSA
+ATSC5s,dropped,collinear with TPSA,0.9435950583459706,TPSA
+MATS1i,dropped,collinear with SHBa,0.9806806185759075,SHBa
+ATSC1i,dropped,collinear with SHBa,0.9777174509513538,SHBa
+ETA_dAlpha_B,dropped,collinear with TPSA,0.9287650156057635,TPSA
+RDF45s,dropped,collinear with TPSA,0.9367178652218745,TPSA
+AATSC1i,dropped,collinear with SHBa,0.9905673148935991,SHBa
+JGI10,dropped,collinear with TPSA,0.9424854042960268,TPSA
+TDB10m,kept,max |rXX| <= 0.85,0.7733668666176201,RDF135e
+nHBDon,dropped,collinear with TPSA,0.9132996603805962,TPSA
+AATSC3c,dropped,collinear with TPSA,0.8635768693058392,TPSA
+ATSC0s,dropped,collinear with TPSA,0.9762828789660107,TPSA
+L3v,dropped,collinear with RDF30i,0.9074017995501649,RDF30i
+maxHBa,dropped,collinear with TPSA,0.9722503692475069,TPSA
+L3s,dropped,collinear with RDF30i,0.9138468178184157,RDF30i
+L3e,dropped,collinear with RDF30i,0.9139048387321461,RDF30i
+FPSA-3,dropped,collinear with ALogP,0.9095987864897144,ALogP
+AATSC5s,dropped,collinear with TPSA,0.9718458442533328,TPSA
+RDF30s,dropped,collinear with RDF30i,0.9506498538462039,RDF30i
+L3u,dropped,collinear with RDF30i,0.9159260640474688,RDF30i
+L3i,dropped,collinear with RDF30i,0.9167915825523393,RDF30i
+nAtomLC,dropped,collinear with TPSA,0.969047909996726,TPSA
+GATS1p,dropped,collinear with ALogP,0.9304477184186172,ALogP
+DELS,dropped,collinear with TPSA,0.9801245424401738,TPSA
+GGI10,dropped,collinear with TDB10m,0.8581315038290874,TDB10m
+ATSC2i,dropped,collinear with TPSA,0.8686085572905896,TPSA
+AATSC2i,dropped,collinear with TPSA,0.8698720945341912,TPSA
+L3p,dropped,collinear with RDF30i,0.9137395111416752,RDF30i
+FPSA-2,kept,max |rXX| <= 0.85,0.8435812894972403,TPSA
+nBondsD2,dropped,collinear with FPSA-2,0.9663653058245688,FPSA-2
+ATSC1c,dropped,collinear with TPSA,0.9306350885267157,TPSA
+gmax,dropped,collinear with TPSA,0.9751590474260164,TPSA
+L3m,dropped,collinear with RDF30i,0.9028999139021103,RDF30i
+RDF10s,dropped,collinear with FPSA-2,0.9570179873305307,FPSA-2
+AATSC1c,dropped,collinear with SHBa,0.9546050414284584,SHBa
+MAXDP,dropped,collinear with TPSA,0.9669582864145888,TPSA
+ATSC0c,dropped,collinear with minHBa,0.9580497857908595,minHBa
+ATS0s,dropped,collinear with TPSA,0.8963834141419255,TPSA
+ATSC3s,dropped,collinear with TPSA,0.934232719509574,TPSA
+PPSA-3,dropped,collinear with FPSA-2,0.9541199399793431,FPSA-2
+RDF45i,dropped,collinear with FPSA-2,0.8961870018783844,FPSA-2
+RDF55s,dropped,collinear with FPSA-2,0.9313298317996689,FPSA-2
+AATSC0s,dropped,collinear with TPSA,0.9345783403318282,TPSA
+GATS1i,dropped,collinear with AATS4i,0.9116284986480558,AATS4i
+bpol,dropped,collinear with FPSA-2,0.9115548407601457,FPSA-2
+RDF45e,dropped,collinear with FPSA-2,0.8747195246269057,FPSA-2
+PPSA-2,dropped,collinear with FPSA-2,0.9924507095137258,FPSA-2
+ATSC2c,dropped,collinear with TPSA,0.915193762723744,TPSA
+MLFER_BO,dropped,collinear with ALogP,0.8821444307028865,ALogP
+MLFER_BH,dropped,collinear with ALogP,0.882433333029209,ALogP
+MDEN-22,dropped,collinear with TPSA,0.9227980774130875,TPSA
+GATS3i,dropped,collinear with SHBa,0.9231205316459492,SHBa
+ATSC1s,dropped,collinear with TPSA,0.9181251923582858,TPSA
+RDF10i,dropped,collinear with FPSA-2,0.8884558360386292,FPSA-2
+MDEN-12,dropped,collinear with FPSA-2,0.9570816247515808,FPSA-2
+RDF25s,kept,max |rXX| <= 0.85,0.7475791312839547,ALogP
+GATS3c,kept,max |rXX| <= 0.85,0.8108246756578901,SHBa
+RDF45u,dropped,collinear with FPSA-2,0.8683784439060865,FPSA-2
+AATSC3s,dropped,collinear with TPSA,0.9022997819689083,TPSA
+SpMax3_Bhs,dropped,collinear with RDF25s,0.9677940675988698,RDF25s
+GGI9,dropped,collinear with FPSA-2,0.9508715150955329,FPSA-2
+AATS0s,dropped,collinear with TPSA,0.921748849295556,TPSA
+meanI,dropped,collinear with ALogP,0.9205272606108625,ALogP
+XLogP,kept,max |rXX| <= 0.85,0.7736583477677433,SHBa
+RDF55v,kept,max |rXX| <= 0.85,0.8470249808621917,FPSA-2
+WPSA-2,dropped,collinear with FPSA-2,0.9764897617671837,FPSA-2
+qmin,dropped,collinear with SHBa,0.958164622370904,SHBa
+MATS2i,dropped,collinear with FPSA-2,0.9063076330710341,FPSA-2
+AATS3s,dropped,collinear with TPSA,0.8974066705367311,TPSA
+ATS7s,dropped,collinear with FPSA-2,0.8877460048616342,FPSA-2
+ATS8s,dropped,collinear with FPSA-2,0.9163030648146862,FPSA-2
+ATSC8s,dropped,collinear with TPSA,0.8693666164312532,TPSA
+TDB10s,dropped,collinear with TDB10m,0.8973981642699559,TDB10m
+RDF10e,dropped,collinear with FPSA-2,0.8724026689193777,FPSA-2
+ATSC3i,dropped,collinear with XLogP,0.8801929444027372,XLogP
+ATSC1p,dropped,collinear with minHBa,0.9192625541474159,minHBa
+TDB3s,dropped,collinear with TPSA,0.8788245115641232,TPSA
+RDF55i,dropped,collinear with RDF55v,0.9415225233797265,RDF55v
+AATSC0c,dropped,collinear with SHBa,0.9003532261656658,SHBa
+WPSA-3,dropped,collinear with FPSA-2,0.9293180369851414,FPSA-2
+RDF55e,dropped,collinear with RDF55v,0.9479001614377612,RDF55v
+RDF55u,dropped,collinear with RDF55v,0.9462444647067128,RDF55v
+VE1_Dzp,kept,max |rXX| <= 0.85,0.8489537934593768,TPSA
+RDF10u,dropped,collinear with RDF25s,0.866392558939681,RDF25s
+AATSC1s,dropped,collinear with TPSA,0.8753986126678992,TPSA
+ATS4s,dropped,collinear with RDF25s,0.9402517094529547,RDF25s
+DPSA-2,dropped,collinear with FPSA-2,0.8921307394071483,FPSA-2
+MAXDN,dropped,collinear with TPSA,0.8807242158604438,TPSA
+ATS6s,dropped,collinear with RDF25s,0.8758165237991529,RDF25s
+SpMAD_Dzp,dropped,collinear with FPSA-2,0.9120813391933726,FPSA-2
+minwHBa,kept,max |rXX| <= 0.85,0.7189526914853636,CrippenLogP
+GATS1c,dropped,collinear with TPSA,0.8984528361680565,TPSA
+RDF30u,dropped,collinear with RDF30i,0.9982340248672632,RDF30i
+ATS8i,kept,max |rXX| <= 0.85,0.8277698121613914,FPSA-2
+ATS2s,dropped,collinear with RDF25s,0.9337429565794062,RDF25s
+AATS4s,dropped,collinear with TPSA,0.8835114753895378,TPSA
+hmax,dropped,collinear with TPSA,0.8673848996593798,TPSA
+nRotB,dropped,collinear with minHBa,0.9245661098405503,minHBa
+ATSC4c,dropped,collinear with FPSA-2,0.904945408579078,FPSA-2
+MATS2s,kept,max |rXX| <= 0.85,0.8290607705195535,TPSA
+TDB4s,dropped,collinear with MATS2s,0.8783916160550465,MATS2s
+RDF55p,dropped,collinear with RDF55v,0.9882358243678634,RDF55v
+RDF20e,dropped,collinear with FPSA-2,0.8644623421877284,FPSA-2
+TDB10v,dropped,collinear with TDB10m,0.955314198580941,TDB10m
+AATSC1p,dropped,collinear with SHBa,0.9340824684710087,SHBa
+Vs,dropped,collinear with ATS8i,0.9674077591061003,ATS8i
+SpMax1_Bhs,dropped,collinear with MATS2s,0.897541428618903,MATS2s
+ATSC6p,kept,max |rXX| <= 0.85,0.6884695754440339,ATS8i
+TIC2,dropped,collinear with FPSA-2,0.8911599841353299,FPSA-2
+RDF20i,kept,max |rXX| <= 0.85,0.846912175651668,FPSA-2
+nBondsS2,dropped,collinear with RDF20i,0.906333140923471,RDF20i
+ATS8e,dropped,collinear with ATS8i,0.9959260535868835,ATS8i
+TIC1,dropped,collinear with FPSA-2,0.9176334439963657,FPSA-2
+MATS3c,dropped,collinear with GATS3c,0.945831112801427,GATS3c
+MATS1p,dropped,collinear with minHBa,0.9261294889878714,minHBa
+Vu,dropped,collinear with ATS8i,0.9675112559792507,ATS8i
+VE1_Dt,kept,max |rXX| <= 0.85,0.6897567275902733,VE1_Dzp
+Vi,dropped,collinear with ATS8i,0.9665902829155557,ATS8i
+AATSC4s,dropped,collinear with minHBa,0.850216135072798,minHBa
+RDF20s,dropped,collinear with RDF20i,0.9759371579887539,RDF20i
+TIC0,dropped,collinear with FPSA-2,0.869597921540082,FPSA-2
+Ve,dropped,collinear with ATS8i,0.9640584037391177,ATS8i
+RDF65s,dropped,collinear with ATS8i,0.87447539288098,ATS8i
+SpMAD_Dzv,kept,max |rXX| <= 0.85,0.8354525359485739,SHBa
+RotBFrac,dropped,collinear with minHBa,0.8919945142261978,minHBa
+MLFER_S,dropped,collinear with MATS2s,0.8854965117105417,MATS2s
+RDF20u,dropped,collinear with RDF20i,0.9960856616993579,RDF20i
+RDF60s,dropped,collinear with ATS8i,0.9141862648736971,ATS8i
+ATSC4s,dropped,collinear with minHBa,0.8933599446601478,minHBa
+MATS6m,kept,max |rXX| <= 0.85,0.7328662980929567,ATSC6p
+GATS2s,dropped,collinear with MATS2s,0.918052389492976,MATS2s
+AATSC4c,kept,max |rXX| <= 0.85,0.805379695982384,FPSA-2
+VE2_Dzp,dropped,collinear with VE1_Dzp,0.9909814263888861,VE1_Dzp
+AATS3i,dropped,collinear with AATS4i,0.9720863141997151,AATS4i
+AATSC1e,dropped,collinear with FPSA-2,0.9028030745899982,FPSA-2
+GATS1v,kept,max |rXX| <= 0.85,0.7679179314996268,ALogP
+AATSC3i,dropped,collinear with XLogP,0.8783781667567768,XLogP
+gmin,kept,max |rXX| <= 0.85,0.8405181811692671,TPSA
+RDF30e,dropped,collinear with RDF30i,0.9858565173689999,RDF30i
+ATSC0i,dropped,collinear with RDF25s,0.8972338594962092,RDF25s
+ETA_BetaP_s,kept,max |rXX| <= 0.85,0.8276530702770273,SHBa
+TDB10r,dropped,collinear with TDB10m,0.9129928166349975,TDB10m
+RDF75s,dropped,collinear with ATS8i,0.9030049478183889,ATS8i
+ATSC1e,dropped,collinear with FPSA-2,0.9019029014099754,FPSA-2
+ATS3s,dropped,collinear with RDF25s,0.9228616953742229,RDF25s
+RDF20v,dropped,collinear with RDF20i,0.9688685185650756,RDF20i
+AATS2s,dropped,collinear with gmin,0.9099263359826415,gmin
+TDB2s,dropped,collinear with gmin,0.9233620396786221,gmin
+SpAbs_Dzp,dropped,collinear with SpMAD_Dzv,0.927467421842164,SpMAD_Dzv
+RDF35s,dropped,collinear with FPSA-2,0.9120578155774715,FPSA-2
+RDF75i,dropped,collinear with ATS8i,0.8695990627365425,ATS8i
+AATSC2c,dropped,collinear with MATS2s,0.9131689152918814,MATS2s
+ALogp2,kept,max |rXX| <= 0.85,0.8157775767905371,ALogP
+SpDiam_Dzs,dropped,collinear with MATS2s,0.8985885763000989,MATS2s
+DPSA-1,kept,max |rXX| <= 0.85,0.8366504038675413,ALogp2
+RDF15m,dropped,collinear with RDF25s,0.9612594112974614,RDF25s
+ATSC2s,dropped,collinear with gmin,0.9895786246717012,gmin
+ZMIC1,dropped,collinear with ALogp2,0.9190819406368119,ALogp2
+sumI,dropped,collinear with ATS8i,0.8895506725313809,ATS8i
+ATSC6v,dropped,collinear with ATSC6p,0.9868708511920133,ATSC6p
+AATSC0i,dropped,collinear with DPSA-1,0.8606651065361625,DPSA-1
+SpAD_Dzp,dropped,collinear with SpMAD_Dzv,0.9280188851183201,SpMAD_Dzv
+ATS5s,dropped,collinear with ATS8i,0.9246598085948937,ATS8i
+AATSC2s,dropped,collinear with gmin,0.9857619147656949,gmin
+RDF75e,dropped,collinear with ATS8i,0.8695580035667032,ATS8i
+RDF75u,dropped,collinear with ATS8i,0.8560720109016833,ATS8i
+ATSC1m,dropped,collinear with gmin,0.8786816315348731,gmin
+Vv,dropped,collinear with ATS8i,0.9296574450170932,ATS8i
+AATS5s,dropped,collinear with MATS2s,0.8966756777833248,MATS2s
+maxHdNH,dropped,collinear with FPSA-2,0.8968483608731119,FPSA-2
+minHBint9,dropped,collinear with FPSA-2,0.8968483608731119,FPSA-2
+SHBint4,dropped,collinear with FPSA-2,0.8968483608731116,FPSA-2
+SHdNH,dropped,collinear with FPSA-2,0.8968483608731115,FPSA-2
+nBase,dropped,collinear with FPSA-2,0.8968483608731114,FPSA-2
+MDEC-11,dropped,collinear with FPSA-2,0.8968483608731115,FPSA-2
+SHBint8,dropped,collinear with FPSA-2,0.8968483608731114,FPSA-2
+minHdNH,dropped,collinear with FPSA-2,0.8968483608731117,FPSA-2
+nHBint4,dropped,collinear with FPSA-2,0.8968483608731116,FPSA-2
+nHBint8,dropped,collinear with FPSA-2,0.8968483608731116,FPSA-2
+MDEN-11,dropped,collinear with FPSA-2,0.8968483608731116,FPSA-2
+MDEO-22,dropped,collinear with FPSA-2,0.8968483608731116,FPSA-2
+SHdsCH,dropped,collinear with FPSA-2,0.8968483608731117,FPSA-2
+SdNH,dropped,collinear with FPSA-2,0.8968483608731117,FPSA-2
+maxdNH,dropped,collinear with FPSA-2,0.8968483608731118,FPSA-2
+minsCH3,dropped,collinear with FPSA-2,0.8968483608731118,FPSA-2
+MDEC-12,dropped,collinear with FPSA-2,0.8968483608731116,FPSA-2
+maxssO,dropped,collinear with FPSA-2,0.8968483608731115,FPSA-2
+MDEC-13,dropped,collinear with FPSA-2,0.8968483608731115,FPSA-2
+SssCH2,dropped,collinear with FPSA-2,0.8968483608731116,FPSA-2
+maxHBint4,dropped,collinear with FPSA-2,0.896848360873111,FPSA-2
+SssO,dropped,collinear with FPSA-2,0.8968483608731117,FPSA-2
+minHBint4,dropped,collinear with FPSA-2,0.8968483608731117,FPSA-2
+minssO,dropped,collinear with FPSA-2,0.8968483608731117,FPSA-2
+SsCH3,dropped,collinear with FPSA-2,0.8968483608731116,FPSA-2
+minHBint7,dropped,collinear with FPSA-2,0.8968483608731115,FPSA-2
+SdsCH,dropped,collinear with FPSA-2,0.8968483608731119,FPSA-2
+SdssC,dropped,collinear with FPSA-2,0.8968483608731115,FPSA-2
+SHBint7,dropped,collinear with FPSA-2,0.8968483608731115,FPSA-2
+nsCH3,dropped,collinear with FPSA-2,0.8968483608731116,FPSA-2
+mindNH,dropped,collinear with FPSA-2,0.8968483608731115,FPSA-2
+SHBint10,dropped,collinear with FPSA-2,0.8968483608731113,FPSA-2
+maxsCH3,dropped,collinear with FPSA-2,0.8968483608731114,FPSA-2
+SHBint9,dropped,collinear with FPSA-2,0.8968483608731118,FPSA-2
+SHCsatu,dropped,collinear with FPSA-2,0.8968483608731115,FPSA-2
+RDF110s,dropped,collinear with RDF135e,0.9630464074631047,RDF135e
+RDF110m,dropped,collinear with RDF135e,0.9998264936503957,RDF135e
+RDF110v,dropped,collinear with RDF135e,0.9938152357474291,RDF135e
+RDF110p,dropped,collinear with RDF135e,0.9829004852695369,RDF135e
+RDF110e,dropped,collinear with RDF135e,0.9003476880310441,RDF135e
+RDF110i,dropped,collinear with TDB10m,0.9008287826843547,TDB10m
+RDF110u,dropped,collinear with TDB10m,0.8987332614357832,TDB10m
+EE_Dzp,dropped,collinear with SpMAD_Dzv,0.9260734629590406,SpMAD_Dzv
+SpMax_Dzp,dropped,collinear with SpMAD_Dzv,0.9260734629540399,SpMAD_Dzv
+SpDiam_Dzp,dropped,collinear with SpMAD_Dzv,0.9349784194947761,SpMAD_Dzv
+GATS3p,kept,max |rXX| <= 0.85,0.8301711839353174,GATS3c
+VE1_Dzs,kept,max |rXX| <= 0.85,0.735497815068701,VE1_Dt
+RDF100s,dropped,collinear with FPSA-2,0.8512134797740685,FPSA-2
+PPSA-1,dropped,collinear with DPSA-1,0.9347830622636285,DPSA-1
+ATS7i,dropped,collinear with ATS8i,0.9728856863424887,ATS8i
+TDB10p,dropped,collinear with TDB10m,0.9095409414132148,TDB10m
+RDF100i,dropped,collinear with FPSA-2,0.8835023794801554,FPSA-2
+RDF100u,dropped,collinear with FPSA-2,0.872184792964264,FPSA-2
+Vp,dropped,collinear with ATS8i,0.9296114207312453,ATS8i
+ATS8v,dropped,collinear with ATS8i,0.914615276025083,ATS8i
+RDF100e,dropped,collinear with FPSA-2,0.8703550904954074,FPSA-2
+ATSC5c,dropped,collinear with FPSA-2,0.9141392306566352,FPSA-2
+AATSC1m,dropped,collinear with gmin,0.9036916360027976,gmin
+ATSC5e,dropped,collinear with AATSC4c,0.9500995199124298,AATSC4c
+RDF80s,dropped,collinear with FPSA-2,0.9005468883580383,FPSA-2
+MLFER_A,dropped,collinear with gmin,0.9551346042949077,gmin
+ZMIC2,dropped,collinear with ALogp2,0.9369243227965669,ALogp2
+TDB5s,kept,max |rXX| <= 0.85,0.8469129903417418,MATS2s
+LUMO,kept,max |rXX| <= 0.85,0.7629095858502878,RDF20i
+SpAbs_Dzv,dropped,collinear with SpMAD_Dzv,0.9272722208292751,SpMAD_Dzv
+EE_Dzs,dropped,collinear with MATS2s,0.866714582524563,MATS2s
+SpMax_Dzs,dropped,collinear with MATS2s,0.8667145825245028,MATS2s
+TDB2i,dropped,collinear with ETA_BetaP_s,0.8629606120278184,ETA_BetaP_s
+LipoaffinityIndex,dropped,collinear with naAromAtom,0.8684551595185804,naAromAtom
+SpAD_Dzs,dropped,collinear with MATS2s,0.8666621658867796,MATS2s
+SpDiam_Dzv,dropped,collinear with SpMAD_Dzv,0.9313201619181267,SpMAD_Dzv
+THSA,kept,max |rXX| <= 0.85,0.7484540445813289,CrippenLogP
+VE2_Dt,dropped,collinear with VE1_Dt,0.9758155084419372,VE1_Dt
+ATS7e,dropped,collinear with ATS8i,0.9689684906457394,ATS8i
+SpAD_Dzv,dropped,collinear with SpMAD_Dzv,0.9255682622606555,SpMAD_Dzv
+RDF65i,dropped,collinear with ATS8i,0.9001318765336876,ATS8i
+WPSA-1,dropped,collinear with ATS8i,0.8901390957567071,ATS8i
+minHBint2,dropped,collinear with gmin,0.9797228523091763,gmin
+SssNH,dropped,collinear with gmin,0.9797228523091763,gmin
+SddssS,dropped,collinear with gmin,0.9797228523091768,gmin
+SdO,dropped,collinear with gmin,0.9797228523091767,gmin
+ETA_Shape_X,dropped,collinear with gmin,0.9797228523091764,gmin
+SHssNH,dropped,collinear with gmin,0.9797228523091767,gmin
+MDEO-11,dropped,collinear with gmin,0.9797228523091766,gmin
+maxHBint6,dropped,collinear with gmin,0.979722852309177,gmin
+mindO,dropped,collinear with gmin,0.979722852309177,gmin
+SHsNH2,dropped,collinear with gmin,0.9797228523091766,gmin
+SHBint6,dropped,collinear with gmin,0.9797228523091767,gmin
+SaaN,dropped,collinear with gmin,0.9797228523091767,gmin
+nS_4,dropped,collinear with gmin,0.9797228523091766,gmin
+nHBint2,dropped,collinear with gmin,0.9797228523091766,gmin
+SHBint2,dropped,collinear with gmin,0.979722852309177,gmin
+minHBint6,dropped,collinear with gmin,0.979722852309177,gmin
+nHBint6,dropped,collinear with gmin,0.9797228523091766,gmin
+minaaN,dropped,collinear with gmin,0.9797228523091761,gmin
+SsNH2,dropped,collinear with gmin,0.9797228523091767,gmin
+GGI8,dropped,collinear with SpMAD_Dzv,0.8779485466034225,SpMAD_Dzv
+MATS1m,dropped,collinear with TDB5s,0.8666586763899488,TDB5s
+ATSC6m,dropped,collinear with MATS6m,0.9147291782368046,MATS6m
+EE_Dzv,dropped,collinear with SpMAD_Dzv,0.9239975250263918,SpMAD_Dzv
+SpMax_Dzv,dropped,collinear with SpMAD_Dzv,0.9239975250215766,SpMAD_Dzv
+ATSC6e,kept,max |rXX| <= 0.85,0.7840202275459963,minHBa
+SpAbs_Dzs,dropped,collinear with MATS2s,0.8631371187137394,MATS2s
+RDF20p,dropped,collinear with RDF20i,0.9156122152684564,RDF20i
+FNSA-1,dropped,collinear with DPSA-1,0.9913177814340562,DPSA-1
+FPSA-1,dropped,collinear with DPSA-1,0.9913177814340564,DPSA-1
+SpMAD_Dzs,dropped,collinear with gmin,0.9593193183900922,gmin
+PNSA-1,dropped,collinear with DPSA-1,0.9405356068499255,DPSA-1
+MAXDN2,dropped,collinear with gmin,0.8754664094796947,gmin
+IC2,kept,max |rXX| <= 0.85,0.8205421599309757,SpMAD_Dzv
+ATS0i,dropped,collinear with ATS8i,0.925490047031715,ATS8i
+RDF35i,dropped,collinear with DPSA-1,0.8501012039874832,DPSA-1
+εα ,kept,max |rXX| <= 0.85,0.7728670229262822,minHBa
+IC1,dropped,collinear with IC2,0.9392390922181072,IC2
+RDF100p,kept,max |rXX| <= 0.85,0.8294302438609304,TDB10m
+RDF90s,dropped,collinear with FPSA-2,0.8708480535582847,FPSA-2
+ATS8p,dropped,collinear with ATS8i,0.9101488283754952,ATS8i
+RDF100v,dropped,collinear with RDF100p,0.9820256992801453,RDF100p
+RDF65u,dropped,collinear with ATS8i,0.9040413166558767,ATS8i
+As,dropped,collinear with ATS8i,0.9464316360166575,ATS8i
+AATS1v,dropped,collinear with DPSA-1,0.9272331032481651,DPSA-1
+AATS1p,dropped,collinear with DPSA-1,0.9483729672839768,DPSA-1
+AATS2p,dropped,collinear with DPSA-1,0.928106972413012,DPSA-1
+MATS3i,kept,max |rXX| <= 0.85,0.8470841037642601,AATS4i
+ATS2i,dropped,collinear with ATS8i,0.8939466939342325,ATS8i
+RDF70s,dropped,collinear with ATS8i,0.9303751229628757,ATS8i
+Hard,dropped,collinear with TDB5s,0.9289828318263542,TDB5s
+RDF50s,dropped,collinear with ATS8i,0.881882168198902,ATS8i
+MATS6p,dropped,collinear with ATSC6p,0.9126564889043719,ATSC6p
+AATS2v,dropped,collinear with DPSA-1,0.888864124161345,DPSA-1
+E2e,kept,max |rXX| <= 0.85,0.6786919983198253,DPSA-1
+RDF95m,dropped,collinear with FPSA-2,0.8689024096305625,FPSA-2
+SpMax4_Bhm,dropped,collinear with ALogp2,0.9064942306334624,ALogp2
+Au,dropped,collinear with ATS8i,0.9419177618055001,ATS8i
+RDF35e,kept,max |rXX| <= 0.85,0.827857173430701,ATS8i
+nH_1,dropped,collinear with DPSA-1,0.9383133480305021,DPSA-1
+ETA_Psi_1,kept,max |rXX| <= 0.85,0.8412635587100918,minHBa
+ETA_dPsi_A,dropped,collinear with ETA_Psi_1,1.0,ETA_Psi_1
+TDB10e,kept,max |rXX| <= 0.85,0.7888751273220527,TDB10m
+ATS0e,dropped,collinear with ATS8i,0.917409853785434,ATS8i
+GATS1m,kept,max |rXX| <= 0.85,0.7548653212682428,GATS1v
+RDF65e,dropped,collinear with ATS8i,0.8738246491673738,ATS8i
+BIC2,dropped,collinear with IC2,0.9505690774350801,IC2
+BCUTp-1l,kept,max |rXX| <= 0.85,0.8288537814155584,IC2
+Ai,dropped,collinear with ATS8i,0.9363435216680406,ATS8i
+Ae,dropped,collinear with ATS8i,0.9403710237618023,ATS8i
+RDF25e,dropped,collinear with RDF25s,0.9277857958837504,RDF25s
+ATSC8i,kept,max |rXX| <= 0.85,0.7736216962331008,minHBa
+MATS1e,dropped,collinear with minHBa,0.9529489610017134,minHBa
+SM1_Dzi,dropped,collinear with ETA_Psi_1,0.9787968367558821,ETA_Psi_1
+Si,dropped,collinear with RDF35e,0.9221134753789552,RDF35e
+ATS1s,dropped,collinear with RDF35e,0.9105477300932209,RDF35e
+RDF30v,dropped,collinear with ETA_BetaP_s,0.9201825942700748,ETA_BetaP_s
+ATS1i,dropped,collinear with RDF35e,0.9129619060031368,RDF35e
+MATS4e,kept,max |rXX| <= 0.85,0.6818953763158466,GATS3c
+RDF25i,dropped,collinear with RDF25s,0.9248370540814926,RDF25s
+Sare,dropped,collinear with RDF35e,0.9196418623383927,RDF35e
+RDF80e,dropped,collinear with ATS8i,0.8651069823732715,ATS8i
+ETA_AlphaP,dropped,collinear with DPSA-1,0.9457354043501859,DPSA-1
+SwHBa,dropped,collinear with naAromAtom,0.9688383384421714,naAromAtom
+SpMax7_Bhs,dropped,collinear with RDF25s,0.8865267881869247,RDF25s
+ATS2e,dropped,collinear with RDF35e,0.8931137348601806,RDF35e
+MATS2c,kept,max |rXX| <= 0.85,0.7582935416845767,IC2
+RDF95s,dropped,collinear with ATS8i,0.9039365546219613,ATS8i
+BCUTc-1h,kept,max |rXX| <= 0.85,0.7219048966349529,SHBa
+RDF15s,dropped,collinear with RDF25s,0.8734955478473293,RDF25s
+E2i,kept,max |rXX| <= 0.85,0.7968504486477148,RDF30i
+FMF,dropped,collinear with naAromAtom,0.8837295271352485,naAromAtom
+AATSC8s,kept,max |rXX| <= 0.85,0.7861157890186246,gmin
+D,kept,max |rXX| <= 0.85,0.7901315050887342,XLogP
+ATS4i,dropped,collinear with RDF35e,0.88343865497448,RDF35e
+VE2_Dzs,dropped,collinear with VE1_Dzs,0.9735018654142062,VE1_Dzs
+AATSC6p,dropped,collinear with ATSC6p,0.8631556308064418,ATSC6p
+SM1_Dzs,dropped,collinear with E2e,0.8826291157863997,E2e
+TDB10i,dropped,collinear with TDB10e,0.9977541134720777,TDB10e
+TDB10u,dropped,collinear with TDB10e,0.9991999997266471,TDB10e
+BIC1,kept,max |rXX| <= 0.85,0.8485244611002847,BCUTp-1l
+RDF35u,dropped,collinear with RDF35e,0.9941623402590624,RDF35e
+MAXDP2,dropped,collinear with BIC1,0.9103371648698363,BIC1
+RDF80v,dropped,collinear with RDF100p,0.852528913395273,RDF100p
+WNSA-1,dropped,collinear with ALogp2,0.9179562590576545,ALogp2
+SpMin6_Bhv,dropped,collinear with ATS8i,0.8826649784132191,ATS8i
+Sse,dropped,collinear with RDF35e,0.9174768356945291,RDF35e
+Spe,dropped,collinear with RDF35e,0.9158923217620043,RDF35e
+TIC3,dropped,collinear with RDF35e,0.8784918170398308,RDF35e
+TDB2p,dropped,collinear with DPSA-1,0.9159656232859572,DPSA-1
+SIC2,dropped,collinear with IC2,0.9551033596940424,IC2
+SpMAD_Dze,dropped,collinear with SpMAD_Dzv,0.9552586818894017,SpMAD_Dzv
+SpMax3_Bhe,dropped,collinear with RDF25s,0.9178749548846775,RDF25s
+RDF45v,kept,max |rXX| <= 0.85,0.7256820054776986,BIC1
+SpMax3_Bhi,dropped,collinear with RDF25s,0.9197316118584806,RDF25s
+CIC2,dropped,collinear with BIC1,0.9486834606977874,BIC1
+GATS1e,dropped,collinear with GATS1m,0.8985907452622249,GATS1m
+TDB2v,dropped,collinear with DPSA-1,0.8808973462586442,DPSA-1
+AATS0v,dropped,collinear with DPSA-1,0.9364013016532478,DPSA-1
+RDF80i,dropped,collinear with ATS8i,0.8517373448359384,ATS8i
+RDF10v,kept,max |rXX| <= 0.85,0.8136710057222434,RDF35e
+ATSC4e,kept,max |rXX| <= 0.85,0.7637288785368215,E2e
+Av,dropped,collinear with ATS8i,0.9013127261722528,ATS8i
+SpMax8_Bhs,dropped,collinear with RDF25s,0.8731388217436428,RDF25s
+ATS1e,dropped,collinear with RDF35e,0.905500891270421,RDF35e
+RDF80u,dropped,collinear with ATS8i,0.8522391963445619,ATS8i
+SpMAD_Dzi,dropped,collinear with SpMAD_Dzv,0.9573033545528365,SpMAD_Dzv
+RDF20m,dropped,collinear with minwHBa,0.8699514023925354,minwHBa
+GATS3s,dropped,collinear with MATS3i,0.9021355915450632,MATS3i
+ATS4e,dropped,collinear with RDF35e,0.879047643478665,RDF35e
+SpMin6_Bhp,kept,max |rXX| <= 0.85,0.813348063388491,ATS8i
+Mp,dropped,collinear with DPSA-1,0.9435815514749197,DPSA-1
+MATS4s,kept,max |rXX| <= 0.85,0.6064908842953417,E2i
+C2SP2,dropped,collinear with naAromAtom,0.9060377217143432,naAromAtom
+nBondsS,dropped,collinear with RDF35e,0.9016113415157212,RDF35e
+TDB1s,kept,max |rXX| <= 0.85,0.7535670618375273,TDB5s
+SIC1,dropped,collinear with BIC1,0.9971243530465158,BIC1
+SpMin3_Bhv,dropped,collinear with RDF25s,0.9117656166563083,RDF25s
+ATSC3v,dropped,collinear with GATS3p,0.8804399834450332,GATS3p
+Mv,dropped,collinear with DPSA-1,0.9299459288711845,DPSA-1
+RDF45p,dropped,collinear with RDF45v,0.9882999421494412,RDF45v
+E2u,dropped,collinear with E2i,0.9927339622941972,E2i
+nAtom,dropped,collinear with RDF35e,0.9081226557924673,RDF35e
+RDF75p,kept,max |rXX| <= 0.85,0.7826736483646735,ATS8i
+MATS6v,dropped,collinear with ATSC6p,0.8734825458170561,ATSC6p
+RDF15e,dropped,collinear with RDF25s,0.8991314950277234,RDF25s
+RDF95v,dropped,collinear with ATS8i,0.8837690501590589,ATS8i
+MATS3s,kept,max |rXX| <= 0.85,0.8169884180745302,GATS3c
+SpMin7_Bhv,dropped,collinear with GATS1m,0.883862555540519,GATS1m
+SpMin3_Bhp,dropped,collinear with RDF25s,0.9058224215710058,RDF25s
+qmax,dropped,collinear with RDF25s,0.8740759138459103,RDF25s
+AATS6s,dropped,collinear with MATS2s,0.8687343320734011,MATS2s
+MATS1s,dropped,collinear with MATS2s,0.8586186701430082,MATS2s
+RDF80p,dropped,collinear with RDF100p,0.8758860720044046,RDF100p
+SpDiam_Dze,dropped,collinear with McGowan_Volume,0.8750155147997533,McGowan_Volume
+RDF10p,dropped,collinear with RDF10v,0.9986744852935557,RDF10v
+SpDiam_Dzi,dropped,collinear with McGowan_Volume,0.8806671850645365,McGowan_Volume
+RDF75v,dropped,collinear with RDF75p,0.9976675660696701,RDF75p
+Ap,dropped,collinear with ATS8i,0.8968279222244682,ATS8i
+AATS5i,dropped,collinear with AATS4i,0.9084584539180253,AATS4i
+RDF50i,dropped,collinear with RDF75p,0.8736480340492015,RDF75p
+AATSC6v,dropped,collinear with ATSC6p,0.8931523993636353,ATSC6p
+AATS0p,dropped,collinear with DPSA-1,0.9431305581519216,DPSA-1
+Ds,kept,max |rXX| <= 0.85,0.5692504938419859,D
+RDF40s,kept,max |rXX| <= 0.85,0.8441262483743239,BIC1
+TDB1p,dropped,collinear with DPSA-1,0.9350649835625879,DPSA-1
+Kier3,dropped,collinear with RDF40s,0.9488244837472936,RDF40s
+ATS5i,dropped,collinear with RDF35e,0.8932172339804256,RDF35e
+TDB1v,dropped,collinear with DPSA-1,0.9222166911656772,DPSA-1
+ATSC6i,dropped,collinear with ATSC6p,0.9036315265571444,ATSC6p
+SpAbs_Dze,dropped,collinear with McGowan_Volume,0.9027611383529345,McGowan_Volume
+TDB7m,kept,max |rXX| <= 0.85,0.8183309775518952,ALogp2
+SpAD_Dze,dropped,collinear with McGowan_Volume,0.9066636128657232,McGowan_Volume
+RDF15i,dropped,collinear with RDF25s,0.8864430118868146,RDF25s
+AATSC4e,dropped,collinear with ATSC4e,0.9821405624870033,ATSC4e
+IC0,dropped,collinear with BIC1,0.9481606034541085,BIC1
+RDF70i,kept,max |rXX| <= 0.85,0.8401790019360345,ATS8i
+AATS1s,dropped,collinear with TDB1s,0.9558778660638817,TDB1s
+SpMax7_Bhi,dropped,collinear with RDF70i,0.8762880557393481,RDF70i
+EE_Dze,dropped,collinear with McGowan_Volume,0.9088120064963932,McGowan_Volume
+SpMax_Dze,dropped,collinear with McGowan_Volume,0.9088120065281394,McGowan_Volume
+maxsCl,dropped,collinear with RDF70i,0.8889533337267848,RDF70i
+SaasC,kept,max |rXX| <= 0.85,0.810672087955575,TDB7m
+ATSC6s,kept,max |rXX| <= 0.85,0.7774751637137691,FPSA-2
+SpAD_Dzi,dropped,collinear with McGowan_Volume,0.9139174145685621,McGowan_Volume
+SpMAD_Dzm,dropped,collinear with RDF35e,0.856801595147907,RDF35e
+SpAbs_Dzi,dropped,collinear with McGowan_Volume,0.913077484614596,McGowan_Volume
+SpMAD_DzZ,dropped,collinear with RDF35e,0.8529209075302021,RDF35e
+RDF95i,dropped,collinear with ATS8i,0.9150509543304277,ATS8i
+RDF25u,dropped,collinear with RDF70i,0.9325096044406959,RDF70i
+GATS3v,dropped,collinear with GATS3p,0.9547445597140566,GATS3p
+minsCl,dropped,collinear with RDF70i,0.8884064871143389,RDF70i
+TIC4,dropped,collinear with RDF35e,0.8600580787376326,RDF35e
+EE_Dzi,dropped,collinear with McGowan_Volume,0.9167329303943833,McGowan_Volume
+SpMax_Dzi,dropped,collinear with McGowan_Volume,0.9167329304090731,McGowan_Volume
+SpMin7_Bhp,dropped,collinear with GATS1m,0.8634009756006836,GATS1m
+MATS4i,kept,max |rXX| <= 0.85,0.8331216423502235,MATS3s
+SpAbs_Dzm,dropped,collinear with ATS8i,0.8907212983636217,ATS8i
+Ks,kept,max |rXX| <= 0.85,0.6853005977606532,E2i
+Ku,dropped,collinear with Ks,0.9998947347048137,Ks
+RDF60e,dropped,collinear with RDF70i,0.9085904102115766,RDF70i
+SpAbs_DzZ,dropped,collinear with ATS8i,0.8887681339419609,ATS8i
+EN,dropped,collinear with gmin,0.9021921021109642,gmin
+Shift,dropped,collinear with gmin,0.9021921021109642,gmin
+RDF25m,dropped,collinear with RDF25s,0.866655798746293,RDF25s
+RDF95e,dropped,collinear with ATS8i,0.9061032748929487,ATS8i
+ATS6i,dropped,collinear with ATS8i,0.90116022510516,ATS8i
+nCl,dropped,collinear with DPSA-1,0.9182434992051945,DPSA-1
+ATS5e,dropped,collinear with RDF35e,0.8954966469407741,RDF35e
+TDB7p,dropped,collinear with TDB7m,0.9182319092937419,TDB7m
+SpAD_Dzm,dropped,collinear with ATS8i,0.8758900163738871,ATS8i
+AATS7m,dropped,collinear with TDB7m,0.9987838135641249,TDB7m
+SpAD_DzZ,dropped,collinear with ATS8i,0.8739398998342942,ATS8i
+SpMax7_Bhe,dropped,collinear with RDF70i,0.869018185640818,RDF70i
+AATSC4m,dropped,collinear with ATSC4e,0.9564440603422828,ATSC4e
+Ki,dropped,collinear with Ks,0.998987077641199,Ks
+RDF95u,dropped,collinear with ATS8i,0.9029337413453049,ATS8i
+Ke,dropped,collinear with Ks,0.9918390033194359,Ks
+RDF105m,dropped,collinear with RDF135e,0.99997780695136,RDF135e
+ATSC2p,kept,max |rXX| <= 0.85,0.8272407196804246,TDB1s
+EE_Dzm,dropped,collinear with ATS8i,0.8720139762513821,ATS8i
+SpMax_Dzm,dropped,collinear with ATS8i,0.8720139657190198,ATS8i
+TDB6s,dropped,collinear with TDB5s,0.852834762843458,TDB5s
+ATSC2v,dropped,collinear with ATSC2p,0.9651623647956316,ATSC2p
+nBonds2,dropped,collinear with RDF70i,0.926007843141813,RDF70i
+EE_DzZ,dropped,collinear with ATS8i,0.8700315499892546,ATS8i
+SpMax_DzZ,dropped,collinear with ATS8i,0.8700315410116877,ATS8i
+TIC5,dropped,collinear with ATS8i,0.8608925112577563,ATS8i
+E3s,dropped,collinear with Ds,0.853082504861124,Ds
+AATS8s,kept,max |rXX| <= 0.85,0.8456169002530454,IC2
+ATSC3p,dropped,collinear with GATS3p,0.9017170006352151,GATS3p
+ATS6e,dropped,collinear with ATS8i,0.892605397440497,ATS8i
+MATS1c,dropped,collinear with BIC1,0.8896762652714988,BIC1
+GATS5e,kept,max |rXX| <= 0.85,0.6464336219683845,RDF35e
+SpDiam_Dzm,dropped,collinear with ATS8i,0.86088061384558,ATS8i
+RDF80m,dropped,collinear with ATSC6e,0.8828825473445825,ATSC6e
+topoRadius,kept,max |rXX| <= 0.85,0.7645338763242344,ATS8i
+SpMin6_Bhi,dropped,collinear with SpMin6_Bhp,0.9008258465361065,SpMin6_Bhp
+SpDiam_DzZ,dropped,collinear with ATS8i,0.8593763724476764,ATS8i
+AATSC4p,kept,max |rXX| <= 0.85,0.6968794352916627,MATS4e
+SpMin6_Bhe,dropped,collinear with SpMin6_Bhp,0.9381822857766529,SpMin6_Bhp
+ETA_dEpsilon_B,kept,max |rXX| <= 0.85,0.8416095754429179,SaasC
+RDF70e,dropped,collinear with RDF70i,0.9981822745211903,RDF70i
+RDF95p,dropped,collinear with ATS8i,0.8668441375138124,ATS8i
+maxwHBa,kept,max |rXX| <= 0.85,0.8074864172263294,minwHBa
+RDF40m,dropped,collinear with SaasC,0.9547076907012335,SaasC
+Kier2,dropped,collinear with SpMAD_Dzv,0.8931413378765253,SpMAD_Dzv
+ATS3i,dropped,collinear with RDF70i,0.9021640505536282,RDF70i
+RDF40p,dropped,collinear with TDB7m,0.9277992238471762,TDB7m
+WTPT-3,dropped,collinear with ETA_Psi_1,0.960592764823663,ETA_Psi_1
+minaasC,dropped,collinear with SaasC,0.9457706545160672,SaasC
+ATSC4m,dropped,collinear with ATSC4e,0.9504074002954953,ATSC4e
+ATS7v,dropped,collinear with topoRadius,0.872249640182637,topoRadius
+RDF30p,dropped,collinear with ETA_BetaP_s,0.8734995328936558,ETA_BetaP_s
+CIC1,dropped,collinear with BIC1,0.9135561876445216,BIC1
+RDF60i,dropped,collinear with RDF70i,0.9195901621955642,RDF70i
+AATS7s,dropped,collinear with AATS8s,0.9209627691879159,AATS8s
+RDF90i,kept,max |rXX| <= 0.85,0.8459604684124216,RDF100p
+ETA_Beta_s,dropped,collinear with McGowan_Volume,0.9061503331165763,McGowan_Volume
+ATS3e,dropped,collinear with RDF70i,0.8638519333133113,RDF70i
+DPSA-3,dropped,collinear with ETA_Psi_1,0.9372061184775379,ETA_Psi_1
+RDF70u,dropped,collinear with RDF70i,0.9973984673330805,RDF70i
+RDF50e,dropped,collinear with RDF70i,0.9081188314010319,RDF70i
+TDB6m,dropped,collinear with TDB7m,0.9195263251356784,TDB7m
+TDB2r,dropped,collinear with DPSA-1,0.896733854323934,DPSA-1
+RDF15u,dropped,collinear with RDF25s,0.8614471367157749,RDF25s
+WPATH,dropped,collinear with McGowan_Volume,0.8967760944266081,McGowan_Volume
+Kp,dropped,collinear with Ks,0.9458900268528042,Ks
+RDF50u,dropped,collinear with RDF70i,0.9397321242967299,RDF70i
+TDB8p,dropped,collinear with TDB7m,0.9033971230341125,TDB7m
+MATS2p,kept,max |rXX| <= 0.85,0.8172004733372706,ATSC2p
+Kv,dropped,collinear with Ks,0.9423762000631309,Ks
+SpMin3_Bhi,dropped,collinear with RDF25s,0.8774081478792238,RDF25s
+TDB7r,dropped,collinear with TDB7m,0.9141772961493122,TDB7m
+AATS3p,dropped,collinear with DPSA-1,0.8592534045159134,DPSA-1
+SpMax7_Bhv,dropped,collinear with RDF70i,0.872261259161635,RDF70i
+MATS4c,kept,max |rXX| <= 0.85,0.846518436982851,AATSC4c
+AATS4v,dropped,collinear with ETA_dEpsilon_B,0.8787599664646046,ETA_dEpsilon_B
+TDB8m,dropped,collinear with TDB7m,0.8946364158101046,TDB7m
+TDB7v,dropped,collinear with TDB7m,0.9090107180679271,TDB7m
+RDF85m,kept,max |rXX| <= 0.85,0.6611391969068667,TDB7m
+SsCl,dropped,collinear with DPSA-1,0.9022263461522162,DPSA-1
+SpMax2_Bhm,dropped,collinear with TDB7m,0.8848171914497672,TDB7m
+SpMax3_Bhp,dropped,collinear with RDF25s,0.8601561886192599,RDF25s
+RDF60u,dropped,collinear with RDF70i,0.9243848653695719,RDF70i
+RNCS,kept,max |rXX| <= 0.85,0.7782508825204093,RDF70i
+RDF90u,dropped,collinear with RDF90i,0.9972147908743788,RDF90i
+SpMin3_Bhe,dropped,collinear with RDF70i,0.880301297045302,RDF70i
+SpMax3_Bhv,dropped,collinear with RDF25s,0.8626008022469815,RDF25s
+AATS3v,dropped,collinear with ETA_dEpsilon_B,0.8778938019380156,ETA_dEpsilon_B
+TDB3p,kept,max |rXX| <= 0.85,0.8440759220093434,DPSA-1
+TDB6p,kept,max |rXX| <= 0.85,0.8179826767782109,TDB7m
+ATSC8e,kept,max |rXX| <= 0.85,0.6196005590655798,MATS2s
+εβ ,kept,max |rXX| <= 0.85,0.8448759440962758,RDF70i
+ATSC7p,kept,max |rXX| <= 0.85,0.48729034981576247,CrippenLogP
+SpMax6_Bhs,dropped,collinear with RDF35e,0.884565921159049,RDF35e
+AATS8m,dropped,collinear with TDB7m,0.8953182416517074,TDB7m
+"khs,aaaC",dropped,collinear with naAromAtom,0.900411104474333,naAromAtom
+RDF60v,kept,max |rXX| <= 0.85,0.7872737536409751,RDF70i
+MATS4m,dropped,collinear with MATS4e,0.9478663677543452,MATS4e
+maxHother,kept,max |rXX| <= 0.85,0.7985722250047271,AATS8s
+AATS6m,dropped,collinear with TDB7m,0.9183857697991211,TDB7m
+AATS4p,dropped,collinear with TDB3p,0.9938860471588337,TDB3p
+TDB3i,kept,max |rXX| <= 0.85,0.8381063619259886,MATS4i
+EE_D,dropped,collinear with McGowan_Volume,0.9121152959949415,McGowan_Volume
+SpAD_D,dropped,collinear with McGowan_Volume,0.9121152959949492,McGowan_Volume
+SpMax_D,dropped,collinear with McGowan_Volume,0.9121152959949503,McGowan_Volume
+AATSC3v,dropped,collinear with GATS3p,0.8772862296493459,GATS3p
+GATS7p,dropped,collinear with TDB6p,0.9001271818422403,TDB6p
+ECCEN,dropped,collinear with topoRadius,0.8726501659698488,topoRadius
+TDB3v,dropped,collinear with TDB3p,0.9896988868281918,TDB3p
+MDEC-33,kept,max |rXX| <= 0.85,0.7204658761139556,XLogP
+AATS7p,dropped,collinear with TDB6p,0.9529036988938808,TDB6p
+maxHaaCH,dropped,collinear with maxHother,0.9999244108314287,maxHother
+E2p,kept,max |rXX| <= 0.85,0.8159087867010905,DPSA-1
+TDB8r,dropped,collinear with TDB7m,0.9021301438375514,TDB7m
+SpDiam_D,dropped,collinear with McGowan_Volume,0.892820284485632,McGowan_Volume
+AATSC7s,dropped,collinear with gmin,0.8740122852626033,gmin
+AATSC4i,dropped,collinear with MATS4i,0.9786870944321369,MATS4i
+ATSC7v,dropped,collinear with ATSC7p,0.8648801091361727,ATSC7p
+ETA_dAlpha_A,dropped,collinear with εβ ,0.9222565987416736,εβ 
+Vm,dropped,collinear with SpMAD_Dzv,0.8643802047080532,SpMAD_Dzv
+AATSC0m,dropped,collinear with εβ ,0.9349457037237496,εβ 
+ATSC0p,dropped,collinear with TDB3p,0.8733091759471835,TDB3p
+SpMax7_Bhp,dropped,collinear with RDF70i,0.8536195522296557,RDF70i
+SpMAD_D,dropped,collinear with AATS8s,0.9237823077341317,AATS8s
+SpMax4_Bhs,dropped,collinear with AATS8s,0.854302032875718,AATS8s
+RDF15v,kept,max |rXX| <= 0.85,0.8465097421262691,εβ 
+SpMax5_Bhm,kept,max |rXX| <= 0.85,0.8445807969730598,ALogp2
+E3u,kept,max |rXX| <= 0.85,0.8447578796816958,Ds
+ATSC7c,dropped,collinear with ATSC6s,0.9776238359299181,ATSC6s
+SpMax8_Bhi,dropped,collinear with RDF35e,0.8873132052294922,RDF35e
+ZMIC3,kept,max |rXX| <= 0.85,0.8223817297731503,maxHother
+ETA_Shape_Y,dropped,collinear with MDEC-33,0.8669265111898042,MDEC-33
+AMR,kept,max |rXX| <= 0.85,0.8442234451642882,McGowan_Volume
+ATSC0v,dropped,collinear with TDB3p,0.8902229732727729,TDB3p
+RDF40v,dropped,collinear with SaasC,0.9286687041880727,SaasC
+TDB4v,dropped,collinear with TDB3p,0.982226269699345,TDB3p
+topoDiameter,dropped,collinear with AATS8s,0.924809815034081,AATS8s
+GATS2p,kept,max |rXX| <= 0.85,0.7590336423886829,GATS1v
+GATS7m,kept,max |rXX| <= 0.85,0.8383679169621208,TDB6p
+E1m,kept,max |rXX| <= 0.85,0.7366300211600326,εβ 
+geomShape,kept,max |rXX| <= 0.85,0.7267096398191293,TDB6p
+MATS2v,dropped,collinear with MATS2p,0.9738730805437256,MATS2p
+nBondsS3,dropped,collinear with ETA_Psi_1,0.8725247608082756,ETA_Psi_1
+GATS2m,dropped,collinear with GATS1m,0.871440498673842,GATS1m
+AATS5v,dropped,collinear with TDB3p,0.9565991161556716,TDB3p
+ATS0m,dropped,collinear with SpMax5_Bhm,0.8937132070223271,SpMax5_Bhm
+VE1_Dzv,kept,max |rXX| <= 0.85,0.8308942519358103,VE1_Dzp
+HOFc,dropped,collinear with naAromAtom,0.9161292727418889,naAromAtom
+MATS4p,dropped,collinear with AATSC4p,0.9753885196306911,AATSC4p
+RDF15p,dropped,collinear with RDF15v,0.9986637521780118,RDF15v
+L2s,dropped,collinear with RDF15v,0.8818526496248178,RDF15v
+SpMin7_Bhs,kept,max |rXX| <= 0.85,0.8248167510334371,TDB6p
+MATS3v,dropped,collinear with GATS3p,0.9092023986122677,GATS3p
+SpMax8_Bhe,dropped,collinear with RDF35e,0.878388301271545,RDF35e
+R_TpiPCTPC,dropped,collinear with naAromAtom,0.9385983118351442,naAromAtom
+ATS7p,dropped,collinear with McGowan_Volume,0.8737122163133428,McGowan_Volume
+MOMI-XZ,kept,max |rXX| <= 0.85,0.7699390096191883,Ks
+TDB8v,dropped,collinear with TDB7m,0.8829093080899038,TDB7m
+nAromBond,dropped,collinear with naAromAtom,0.9952498430600191,naAromAtom
+TEc,dropped,collinear with McGowan_Volume,0.9209848720302971,McGowan_Volume
+VE3_Dt,kept,max |rXX| <= 0.85,0.7296672232351799,VE1_Dt
+MATS8i,kept,max |rXX| <= 0.85,0.6720111141266616,ATSC8i
+AATSC2v,dropped,collinear with ATSC2p,0.9550733406401521,ATSC2p
+RDF55m,kept,max |rXX| <= 0.85,0.5896175679491537,MATS2c
+TDB4p,dropped,collinear with TDB3p,0.986629111784469,TDB3p
+SpMin5_Bhm,dropped,collinear with SpMin6_Bhp,0.8698546163176349,SpMin6_Bhp
+AATSC6m,kept,max |rXX| <= 0.85,0.7775963882466193,MATS6m
+SpMin1_Bhs,dropped,collinear with naAromAtom,0.9515398384559086,naAromAtom
+Kier1,dropped,collinear with McGowan_Volume,0.941917342747487,McGowan_Volume
+TDB1r,dropped,collinear with TDB3p,0.9657981680412193,TDB3p
+RDF90e,dropped,collinear with RDF90i,0.9658634420286949,RDF90i
+ATSC0m,dropped,collinear with ALogp2,0.8620087798118066,ALogp2
+VR3_Dzs,kept,max |rXX| <= 0.85,0.7788776550262347,RDF75p
+AATS8p,dropped,collinear with TDB7m,0.8967489942396188,TDB7m
+SpMin8_Bhv,dropped,collinear with SpMin7_Bhs,0.944936484954477,SpMin7_Bhs
+MATS3p,dropped,collinear with GATS3p,0.9065096389906535,GATS3p
+minHaaCH,dropped,collinear with maxHother,0.9874939287887264,maxHother
+DELS2,dropped,collinear with ETA_Psi_1,0.8920943162137558,ETA_Psi_1
+AATSC3p,dropped,collinear with GATS3p,0.883277901581704,GATS3p
+ATSC0e,dropped,collinear with ETA_Psi_1,0.9033124103059643,ETA_Psi_1
+TDB6v,dropped,collinear with TDB6p,0.9966846831485109,TDB6p
+TDB4u,kept,max |rXX| <= 0.85,0.8134814721669953,TDB3p
+AATSC6e,dropped,collinear with AATSC6m,0.8892051788187891,AATSC6m
+GATS3m,dropped,collinear with GATS3p,0.889505285452452,GATS3p
+SpMin3_Bhs,dropped,collinear with RDF15v,0.9608829754266195,RDF15v
+P1s,dropped,collinear with Ks,0.9130306326614657,Ks
+VE2_Dzv,dropped,collinear with VE1_Dzv,0.9937565261166053,VE1_Dzv
+E3i,dropped,collinear with E3u,0.9961766250032486,E3u
+nwHBa,dropped,collinear with naAromAtom,0.9931249855415727,naAromAtom
+Dm,dropped,collinear with DPSA-1,0.8794881405239817,DPSA-1
+MATS2e,kept,max |rXX| <= 0.85,0.7838142309530164,TDB5s
+P1e,dropped,collinear with Ks,0.9198962825638772,Ks
+ATS0p,dropped,collinear with McGowan_Volume,0.9343042983994582,McGowan_Volume
+AATS5p,dropped,collinear with TDB3p,0.9784059068594605,TDB3p
+GATS2e,kept,max |rXX| <= 0.85,0.7658452371475263,SpMin7_Bhs
+AATS6p,dropped,collinear with TDB6p,0.9948695012811727,TDB6p
+TDB5v,dropped,collinear with TDB3p,0.9682374147509519,TDB3p
+ATSC7e,dropped,collinear with ATSC6s,0.9106186416366705,ATSC6s
+VE3_Dzp,kept,max |rXX| <= 0.85,0.7735766875832691,VE3_Dt
+RDF65m,kept,max |rXX| <= 0.85,0.8139074403157881,RDF85m
+RDF85i,kept,max |rXX| <= 0.85,0.8460776213962307,RDF75p
+AMW,dropped,collinear with TDB3p,0.9458652682599216,TDB3p
+Ts,dropped,collinear with RDF70i,0.8762274271020747,RDF70i
+AATSC2p,dropped,collinear with ATSC2p,0.9593837957891818,ATSC2p
+GGI7,dropped,collinear with RDF40s,0.8711075845113415,RDF40s
+MATS6e,dropped,collinear with MATS6m,0.8628213382442218,MATS6m
+maxaasC,dropped,collinear with SaasC,0.9349957999778821,SaasC
+Du,dropped,collinear with Ds,0.9739898255161468,Ds
+TDB9p,dropped,collinear with RDF85m,0.895158504176802,RDF85m
+SpMin1_Bhi,dropped,collinear with naAromAtom,0.9495087203674951,naAromAtom
+SpMax1_Bhv,dropped,collinear with naAromAtom,0.9493079856493546,naAromAtom
+AATS0m,dropped,collinear with TDB3p,0.9305124118147133,TDB3p
+GATS2i,dropped,collinear with εβ ,0.8810073063630028,εβ 
+ATSC8v,kept,max |rXX| <= 0.85,0.7180868861907002,ATSC8i
+TDB8e,dropped,collinear with TDB6p,0.9226150431247725,TDB6p
+SpMin5_Bhp,kept,max |rXX| <= 0.85,0.8030052005257018,εβ 
+SaaCH,dropped,collinear with naAromAtom,0.9267510843293386,naAromAtom
+MATS4v,dropped,collinear with AATSC4p,0.9257612488778457,AATSC4p
+AATSC8i,dropped,collinear with MATS8i,0.9924609656117995,MATS8i
+Tu,dropped,collinear with SpMin5_Bhp,0.9125001627853071,SpMin5_Bhp
+E2m,dropped,collinear with E2p,0.9457713365122119,E2p
+ATSC8p,dropped,collinear with ATSC8v,0.968356688411216,ATSC8v
+P1u,dropped,collinear with Ks,0.9060296616857767,Ks
+TDB6r,dropped,collinear with TDB6p,0.9965594628588893,TDB6p

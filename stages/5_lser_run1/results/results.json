@@ -1,0 +1,1566 @@
+{
+  "diagnostics": {
+    "n_records_total_excluding_header": 37,
+    "n_modelling_compounds": 35,
+    "n_TS": 25,
+    "n_VS": 10,
+    "n_EXT_rows_in_excel": 2,
+    "response_col": "EXP LogKda",
+    "descriptor_cols_total": 1996,
+    "numeric_descriptor_cols": 1996,
+    "non_numeric_descriptor_cols": 0,
+    "descriptor_cols_with_missing_modelling": 56,
+    "missing_cols_sample": [
+      [
+        "SCH-3",
+        1
+      ],
+      [
+        "SCH-4",
+        1
+      ],
+      [
+        "SCH-5",
+        1
+      ],
+      [
+        "SCH-6",
+        1
+      ],
+      [
+        "SCH-7",
+        1
+      ],
+      [
+        "VCH-3",
+        1
+      ],
+      [
+        "VCH-4",
+        1
+      ],
+      [
+        "VCH-5",
+        1
+      ],
+      [
+        "VCH-6",
+        1
+      ],
+      [
+        "VCH-7",
+        1
+      ],
+      [
+        "SC-3",
+        1
+      ],
+      [
+        "SC-4",
+        1
+      ],
+      [
+        "SC-5",
+        1
+      ],
+      [
+        "SC-6",
+        1
+      ],
+      [
+        "VC-3",
+        1
+      ],
+      [
+        "VC-4",
+        1
+      ],
+      [
+        "VC-5",
+        1
+      ],
+      [
+        "VC-6",
+        1
+      ],
+      [
+        "SPC-4",
+        1
+      ],
+      [
+        "SPC-5",
+        1
+      ]
+    ],
+    "constant_cols_count": 499,
+    "constant_cols_sample": [
+      "nAcid",
+      "nA",
+      "nR",
+      "nN",
+      "nD",
+      "nC",
+      "nF",
+      "nQ",
+      "nE",
+      "nG",
+      "nH",
+      "nI",
+      "nP",
+      "nL",
+      "nK",
+      "nM",
+      "nS",
+      "nT",
+      "nY",
+      "nV"
+    ],
+    "near_constant_cols_count": 199,
+    "near_constant_cols_sample": [
+      "nN_3",
+      "nS_4",
+      "nBase",
+      "C1SP2",
+      "SCH-5",
+      "VCH-5",
+      "SC-4",
+      "SC-6",
+      "VC-4",
+      "VC-6",
+      "nHBd",
+      "nwHBd",
+      "nHBint2",
+      "nHBint4",
+      "nHBint6",
+      "nHBint7",
+      "nHBint8",
+      "nHBint9",
+      "nHBint10",
+      "nHdNH"
+    ],
+    "duplicate_compound_names": {},
+    "response_outliers_IQR": [
+      "Trimethoprim",
+      "Sulfadiazine",
+      "β-Hexachlorocyclohexane",
+      "δ-Hexachlorocyclohexane",
+      "γ-Hexachlorocyclohexane",
+      "α-Hexachlorocyclohexane"
+    ],
+    "candidate_feature_z_gt_3": [
+      {
+        "Compound": "Sulfadiazine",
+        "features": "log D"
+      }
+    ]
+  },
+  "candidate_features": [
+    "log D",
+    "Mw'",
+    "εα",
+    "εβ",
+    "V'",
+    "π"
+  ],
+  "candidate_corr_TS": [
+    [
+      1.0,
+      0.48934961420840967,
+      -0.5100640485290218,
+      0.35787006375181674,
+      0.21829579203513366,
+      0.15041720686907314
+    ],
+    [
+      0.4893496142084096,
+      1.0,
+      0.2285729662089372,
+      0.5998443838146217,
+      0.6935743455103558,
+      -0.4027521918935135
+    ],
+    [
+      -0.5100640485290217,
+      0.22857296620893722,
+      1.0,
+      0.28660280541792416,
+      0.2158877468006821,
+      -0.6512332517109966
+    ],
+    [
+      0.35787006375181674,
+      0.5998443838146217,
+      0.28660280541792416,
+      0.9999999999999999,
+      -0.03552039584686123,
+      -0.6375366472328992
+    ],
+    [
+      0.21829579203513366,
+      0.6935743455103559,
+      0.2158877468006821,
+      -0.03552039584686123,
+      1.0,
+      -0.10048889540704979
+    ],
+    [
+      0.15041720686907314,
+      -0.4027521918935136,
+      -0.6512332517109967,
+      -0.6375366472328992,
+      -0.10048889540704979,
+      0.9999999999999999
+    ]
+  ],
+  "mlr_subset_top10": [
+    {
+      "features": [
+        "log D",
+        "εβ",
+        "π"
+      ],
+      "n_features": 3,
+      "Q2CV": 0.8710234717920495,
+      "RMSECV": 0.5382717369948338,
+      "MAECV": 0.4178728103093519,
+      "R2_TS": 0.924113217243266,
+      "RMSEC": 0.41288519104841226,
+      "MAE_TS": 0.3375938965037021,
+      "Q2Ext_R2_VS": 0.969384410462313,
+      "RMSEP": 0.27040360635841104,
+      "MAE_VS": 0.18712007902631078,
+      "maxcorr": 0.6375366472328992,
+      "max_vif": 2.611808565841144
+    },
+    {
+      "features": [
+        "log D",
+        "εβ"
+      ],
+      "n_features": 2,
+      "Q2CV": 0.8706733479450957,
+      "RMSECV": 0.5390018467523463,
+      "MAECV": 0.41669799407415836,
+      "R2_TS": 0.9184524023948938,
+      "RMSEC": 0.4280079357013411,
+      "MAE_TS": 0.34286266964272644,
+      "Q2Ext_R2_VS": 0.9803063480333468,
+      "RMSEP": 0.21687240493084178,
+      "MAE_VS": 0.14561954783593323,
+      "maxcorr": 0.35787006375181674,
+      "max_vif": 1.1468823493239186
+    },
+    {
+      "features": [
+        "log D",
+        "εα",
+        "εβ"
+      ],
+      "n_features": 3,
+      "Q2CV": 0.8656764241835968,
+      "RMSECV": 0.549316137959416,
+      "MAECV": 0.42303342217264556,
+      "R2_TS": 0.9233753895170419,
+      "RMSEC": 0.41488752418899694,
+      "MAE_TS": 0.33900721673348394,
+      "Q2Ext_R2_VS": 0.9420537690612226,
+      "RMSEP": 0.37200927043121945,
+      "MAE_VS": 0.23177084606142984,
+      "maxcorr": 0.5100640485290218,
+      "max_vif": 2.159711126594116
+    },
+    {
+      "features": [
+        "log D",
+        "εα",
+        "εβ",
+        "π"
+      ],
+      "n_features": 4,
+      "Q2CV": 0.8625128486820401,
+      "RMSECV": 0.5557472118535908,
+      "MAECV": 0.43554456877280723,
+      "R2_TS": 0.9258021984060356,
+      "RMSEC": 0.40826462826531024,
+      "MAE_TS": 0.3412587991515173,
+      "Q2Ext_R2_VS": 0.9473933860583945,
+      "RMSEP": 0.3544551907345054,
+      "MAE_VS": 0.2251526447203788,
+      "maxcorr": 0.6512332517109967,
+      "max_vif": 2.8982962346734427
+    },
+    {
+      "features": [
+        "log D",
+        "εβ",
+        "V'"
+      ],
+      "n_features": 3,
+      "Q2CV": 0.852775948587094,
+      "RMSECV": 0.5750897381012023,
+      "MAECV": 0.43327307952773475,
+      "R2_TS": 0.9333299195430966,
+      "RMSEC": 0.38700067752749384,
+      "MAE_TS": 0.3134308470957971,
+      "Q2Ext_R2_VS": 0.9700485045612297,
+      "RMSEP": 0.2674548154409999,
+      "MAE_VS": 0.21127085914832203,
+      "maxcorr": 0.35787006375181674,
+      "max_vif": 1.221751356195041
+    },
+    {
+      "features": [
+        "log D",
+        "εα",
+        "εβ",
+        "V'"
+      ],
+      "n_features": 4,
+      "Q2CV": 0.8495970973531353,
+      "RMSECV": 0.5812652292715847,
+      "MAECV": 0.43908045975572535,
+      "R2_TS": 0.9333299308326479,
+      "RMSEC": 0.3870006447611902,
+      "MAE_TS": 0.31345490390833125,
+      "Q2Ext_R2_VS": 0.9700046784016291,
+      "RMSEP": 0.2676504189083434,
+      "MAE_VS": 0.21129784068155194,
+      "maxcorr": 0.5100640485290218,
+      "max_vif": 3.2428302465178
+    },
+    {
+      "features": [
+        "log D",
+        "π"
+      ],
+      "n_features": 2,
+      "Q2CV": 0.8322215732032335,
+      "RMSECV": 0.6139235521087917,
+      "MAECV": 0.4750701862450441,
+      "R2_TS": 0.8970175799000173,
+      "RMSEC": 0.4809808466915178,
+      "MAE_TS": 0.3894680478616454,
+      "Q2Ext_R2_VS": 0.8478811526179388,
+      "RMSEP": 0.6027436991989804,
+      "MAE_VS": 0.4365088119042964,
+      "maxcorr": 0.1504172068690731,
+      "max_vif": 1.0231490921122595
+    },
+    {
+      "features": [
+        "log D",
+        "εβ",
+        "V'",
+        "π"
+      ],
+      "n_features": 4,
+      "Q2CV": 0.825285080983244,
+      "RMSECV": 0.6264857995393116,
+      "MAECV": 0.47682792192985274,
+      "R2_TS": 0.9345191383363964,
+      "RMSEC": 0.3835336102732461,
+      "MAE_TS": 0.3094247923318142,
+      "Q2Ext_R2_VS": 0.9648267386281933,
+      "RMSEP": 0.2898327688458922,
+      "MAE_VS": 0.22571926921911575,
+      "maxcorr": 0.6375366472328992,
+      "max_vif": 2.971020351058304
+    },
+    {
+      "features": [
+        "log D",
+        "Mw'",
+        "εα",
+        "εβ"
+      ],
+      "n_features": 4,
+      "Q2CV": 0.8193000838330882,
+      "RMSECV": 0.6371258283938405,
+      "MAECV": 0.4796356369161457,
+      "R2_TS": 0.9296711673091762,
+      "RMSEC": 0.3974778575735563,
+      "MAE_TS": 0.3280067944992338,
+      "Q2Ext_R2_VS": 0.9480469207253348,
+      "RMSEP": 0.352246602426239,
+      "MAE_VS": 0.23926176352573716,
+      "maxcorr": 0.5998443838146217,
+      "max_vif": 3.229504670165634
+    },
+    {
+      "features": [
+        "log D",
+        "Mw'",
+        "εβ"
+      ],
+      "n_features": 3,
+      "Q2CV": 0.8174280130598033,
+      "RMSECV": 0.6404176708196876,
+      "MAECV": 0.4774259151190182,
+      "R2_TS": 0.9291236968844545,
+      "RMSEC": 0.39902192929891944,
+      "MAE_TS": 0.3270708849955155,
+      "Q2Ext_R2_VS": 0.9606310635233425,
+      "RMSEP": 0.30663237550116595,
+      "MAE_VS": 0.22009933317179234,
+      "maxcorr": 0.5998443838146217,
+      "max_vif": 1.806184114025824
+    }
+  ],
+  "model_summary": [
+    {
+      "Model": "MLR",
+      "Descriptors": "log D, εβ, π",
+      "n_features": 3,
+      "R2_TS": 0.924113217243266,
+      "RMSEC": 0.41288519104841226,
+      "MAE_TS": 0.3375938965037021,
+      "Q2CV": 0.8710234717920495,
+      "RMSECV": 0.5382717369948338,
+      "MAE_CV": 0.4178728103093519,
+      "Q2Ext_R2_VS": 0.969384410462313,
+      "RMSEP": 0.27040360635841104,
+      "MAE_VS": 0.18712007902631078,
+      "Overfit_gap_R2_TS_minus_Q2Ext": -0.045271193219047046,
+      "CV_selected_params": "\"subset by 5-fold CV + VIF<20\""
+    },
+    {
+      "Model": "kNN",
+      "Descriptors": "log D, Mw', εα, εβ, V', π",
+      "n_features": 6,
+      "R2_TS": 1.0,
+      "RMSEC": 0.0,
+      "MAE_TS": 0.0,
+      "Q2CV": 0.7912443600520744,
+      "RMSECV": 0.684802511677637,
+      "MAE_CV": 0.5355200000000001,
+      "Q2Ext_R2_VS": 0.9702629190072789,
+      "RMSEP": 0.2664957785781981,
+      "MAE_VS": 0.20799999999999996,
+      "Overfit_gap_R2_TS_minus_Q2Ext": 0.0297370809927211,
+      "CV_selected_params": "{\"knn__n_neighbors\": 1, \"knn__p\": 1, \"knn__weights\": \"uniform\"}"
+    },
+    {
+      "Model": "Decision Tree",
+      "Descriptors": "log D, Mw', εα, εβ, V', π",
+      "n_features": 6,
+      "R2_TS": 0.9887227943882664,
+      "RMSEC": 0.15916478433192624,
+      "MAE_TS": 0.10859047619047622,
+      "Q2CV": 0.7948426570120486,
+      "RMSECV": 0.6788749262975882,
+      "MAE_CV": 0.4909533333333334,
+      "Q2Ext_R2_VS": 0.9469344911431716,
+      "RMSEP": 0.35599781522425733,
+      "MAE_VS": 0.30033333333333334,
+      "Overfit_gap_R2_TS_minus_Q2Ext": 0.04178830324509475,
+      "CV_selected_params": "{\"dt__max_depth\": 4, \"dt__min_samples_leaf\": 1, \"dt__min_samples_split\": 2}"
+    }
+  ],
+  "best_model_name": "MLR",
+  "best_features": [
+    "log D",
+    "εβ",
+    "π"
+  ],
+  "best_params": "subset by 5-fold CV + VIF<20",
+  "predictions": [
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "Trimethoprim",
+      "Observed_LogKd": 0.594,
+      "Predicted_LogKd": 1.6237126530177934,
+      "Residual_obs_minus_pred": -1.0297126530177936
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "Sulfadiazine",
+      "Observed_LogKd": 0.853,
+      "Predicted_LogKd": 0.3068213936737392,
+      "Residual_obs_minus_pred": 0.5461786063262608
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "γ-Hexachlorocyclohexane",
+      "Observed_LogKd": 2.58,
+      "Predicted_LogKd": 2.8512268887775263,
+      "Residual_obs_minus_pred": -0.2712268887775262
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "Phenanthrene",
+      "Observed_LogKd": 4.0,
+      "Predicted_LogKd": 4.379729687351261,
+      "Residual_obs_minus_pred": -0.37972968735126056
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "Anthracene",
+      "Observed_LogKd": 4.29,
+      "Predicted_LogKd": 4.693038824207961,
+      "Residual_obs_minus_pred": -0.403038824207961
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "Pentachlorobenzene",
+      "Observed_LogKd": 4.5,
+      "Predicted_LogKd": 4.1039271477833195,
+      "Residual_obs_minus_pred": 0.39607285221668054
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "Fluoranthene",
+      "Observed_LogKd": 4.79,
+      "Predicted_LogKd": 4.784714456434777,
+      "Residual_obs_minus_pred": 0.005285543565222817
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "Pyrene",
+      "Observed_LogKd": 4.8,
+      "Predicted_LogKd": 5.192576051544744,
+      "Residual_obs_minus_pred": -0.3925760515447445
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "2,3-dichlorobiphenyl",
+      "Observed_LogKd": 4.98,
+      "Predicted_LogKd": 4.343727284293006,
+      "Residual_obs_minus_pred": 0.6362727157069941
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "2,4′-dichlorobiphenyl",
+      "Observed_LogKd": 4.98,
+      "Predicted_LogKd": 4.480643971578886,
+      "Residual_obs_minus_pred": 0.49935602842111404
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "Hexachlorobenzene",
+      "Observed_LogKd": 5.01,
+      "Predicted_LogKd": 4.5328005458421945,
+      "Residual_obs_minus_pred": 0.4771994541578053
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "2,4,4′-trichlorobiohenyl",
+      "Observed_LogKd": 5.09,
+      "Predicted_LogKd": 4.803301914191763,
+      "Residual_obs_minus_pred": 0.2866980858082373
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "2,2′,5,5′-tetrachlorobiphenyl",
+      "Observed_LogKd": 5.09,
+      "Predicted_LogKd": 5.057065725846264,
+      "Residual_obs_minus_pred": 0.032934274153736176
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "2,2′,3,5′,6-pentachlorobiphenyl",
+      "Observed_LogKd": 5.26,
+      "Predicted_LogKd": 5.490390578946506,
+      "Residual_obs_minus_pred": -0.2303905789465066
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "2,2′,3,3′,4,4′-hexachlorobiphenyl",
+      "Observed_LogKd": 5.45,
+      "Predicted_LogKd": 5.872300663858077,
+      "Residual_obs_minus_pred": -0.42230066385807685
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "2,2′,3,4′,5-pentachlorobiphenyl",
+      "Observed_LogKd": 5.51,
+      "Predicted_LogKd": 5.50554862540993,
+      "Residual_obs_minus_pred": 0.004451374590069612
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "Chrysene",
+      "Observed_LogKd": 5.51,
+      "Predicted_LogKd": 5.398040454430069,
+      "Residual_obs_minus_pred": 0.11195954556993115
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "3,3′,4,4′-tetrachlorobiphenyl",
+      "Observed_LogKd": 5.63,
+      "Predicted_LogKd": 5.440185967350394,
+      "Residual_obs_minus_pred": 0.18981403264960583
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "2,3,3′,4′,6-pentachlorobiphenyl",
+      "Observed_LogKd": 5.63,
+      "Predicted_LogKd": 5.512814732662312,
+      "Residual_obs_minus_pred": 0.11718526733768808
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "2,2′,3,4′,5,5′,6-heptachlorobiphenyl",
+      "Observed_LogKd": 5.73,
+      "Predicted_LogKd": 6.400504432607356,
+      "Residual_obs_minus_pred": -0.6705044326073555
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "2,2′,3,4,4′,5-hexachlorobiphenyl",
+      "Observed_LogKd": 5.77,
+      "Predicted_LogKd": 6.06907607596567,
+      "Residual_obs_minus_pred": -0.29907607596567054
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "Benzo[a]pyrene",
+      "Observed_LogKd": 6.1,
+      "Predicted_LogKd": 6.221367850019378,
+      "Residual_obs_minus_pred": -0.12136785001937866
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "2,2′,4,4′,5,5′-hexachlorobiphenyl",
+      "Observed_LogKd": 6.19,
+      "Predicted_LogKd": 5.9858367916574755,
+      "Residual_obs_minus_pred": 0.20416320834252488
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "Benzo[g,h,i]perylene",
+      "Observed_LogKd": 6.69,
+      "Predicted_LogKd": 6.561778380342301,
+      "Residual_obs_minus_pred": 0.1282216196576993
+    },
+    {
+      "Model": "MLR",
+      "Set": "TS",
+      "Compound": "Dibenz[a,h]anthracene",
+      "Observed_LogKd": 7.0,
+      "Predicted_LogKd": 6.415868902207291,
+      "Residual_obs_minus_pred": 0.5841310977927092
+    },
+    {
+      "Model": "MLR",
+      "Set": "VS",
+      "Compound": "β-Hexachlorocyclohexane",
+      "Observed_LogKd": 2.18,
+      "Predicted_LogKd": 2.8176371901899704,
+      "Residual_obs_minus_pred": -0.6376371901899702
+    },
+    {
+      "Model": "MLR",
+      "Set": "VS",
+      "Compound": "δ-Hexachlorocyclohexane",
+      "Observed_LogKd": 2.23,
+      "Predicted_LogKd": 2.705609485583248,
+      "Residual_obs_minus_pred": -0.4756094855832482
+    },
+    {
+      "Model": "MLR",
+      "Set": "VS",
+      "Compound": "α-Hexachlorocyclohexane",
+      "Observed_LogKd": 2.69,
+      "Predicted_LogKd": 2.7206937175100108,
+      "Residual_obs_minus_pred": -0.03069371751001082
+    },
+    {
+      "Model": "MLR",
+      "Set": "VS",
+      "Compound": "2,2′,3,5′-tetrachlorobiphenyl",
+      "Observed_LogKd": 5.14,
+      "Predicted_LogKd": 5.209416468306567,
+      "Residual_obs_minus_pred": -0.06941646830656722
+    },
+    {
+      "Model": "MLR",
+      "Set": "VS",
+      "Compound": "2,3′,4,4'-tetrachlorobiphenyl",
+      "Observed_LogKd": 5.26,
+      "Predicted_LogKd": 5.184103847843088,
+      "Residual_obs_minus_pred": 0.07589615215691214
+    },
+    {
+      "Model": "MLR",
+      "Set": "VS",
+      "Compound": "2,2′,4,5,5′-pentachlorobiphenyl",
+      "Observed_LogKd": 5.51,
+      "Predicted_LogKd": 5.651515851851868,
+      "Residual_obs_minus_pred": -0.1415158518518682
+    },
+    {
+      "Model": "MLR",
+      "Set": "VS",
+      "Compound": "2,3′,4,4′,5-pentachlorobiphenyl",
+      "Observed_LogKd": 5.71,
+      "Predicted_LogKd": 5.661927185127281,
+      "Residual_obs_minus_pred": 0.04807281487271897
+    },
+    {
+      "Model": "MLR",
+      "Set": "VS",
+      "Compound": "2,3,3′,4,4′-pentachlorobiphenyl",
+      "Observed_LogKd": 5.77,
+      "Predicted_LogKd": 5.594324150167848,
+      "Residual_obs_minus_pred": 0.17567584983215134
+    },
+    {
+      "Model": "MLR",
+      "Set": "VS",
+      "Compound": "2,3,3′,4,5,6-hexachlorobiphenyl",
+      "Observed_LogKd": 6.06,
+      "Predicted_LogKd": 6.023069168589044,
+      "Residual_obs_minus_pred": 0.03693083141095599
+    },
+    {
+      "Model": "MLR",
+      "Set": "VS",
+      "Compound": "2,2′,3,3′,4,6′-hexachlorobiphenyl",
+      "Observed_LogKd": 6.19,
+      "Predicted_LogKd": 6.010247571451296,
+      "Residual_obs_minus_pred": 0.17975242854870466
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "Trimethoprim",
+      "Observed_LogKd": 0.594,
+      "Predicted_LogKd": 0.594,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "Sulfadiazine",
+      "Observed_LogKd": 0.853,
+      "Predicted_LogKd": 0.853,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "γ-Hexachlorocyclohexane",
+      "Observed_LogKd": 2.58,
+      "Predicted_LogKd": 2.58,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "Phenanthrene",
+      "Observed_LogKd": 4.0,
+      "Predicted_LogKd": 4.0,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "Anthracene",
+      "Observed_LogKd": 4.29,
+      "Predicted_LogKd": 4.29,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "Pentachlorobenzene",
+      "Observed_LogKd": 4.5,
+      "Predicted_LogKd": 4.5,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "Fluoranthene",
+      "Observed_LogKd": 4.79,
+      "Predicted_LogKd": 4.79,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "Pyrene",
+      "Observed_LogKd": 4.8,
+      "Predicted_LogKd": 4.8,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "2,3-dichlorobiphenyl",
+      "Observed_LogKd": 4.98,
+      "Predicted_LogKd": 4.98,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "2,4′-dichlorobiphenyl",
+      "Observed_LogKd": 4.98,
+      "Predicted_LogKd": 4.98,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "Hexachlorobenzene",
+      "Observed_LogKd": 5.01,
+      "Predicted_LogKd": 5.01,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "2,4,4′-trichlorobiohenyl",
+      "Observed_LogKd": 5.09,
+      "Predicted_LogKd": 5.09,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "2,2′,5,5′-tetrachlorobiphenyl",
+      "Observed_LogKd": 5.09,
+      "Predicted_LogKd": 5.09,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "2,2′,3,5′,6-pentachlorobiphenyl",
+      "Observed_LogKd": 5.26,
+      "Predicted_LogKd": 5.26,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "2,2′,3,3′,4,4′-hexachlorobiphenyl",
+      "Observed_LogKd": 5.45,
+      "Predicted_LogKd": 5.45,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "2,2′,3,4′,5-pentachlorobiphenyl",
+      "Observed_LogKd": 5.51,
+      "Predicted_LogKd": 5.51,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "Chrysene",
+      "Observed_LogKd": 5.51,
+      "Predicted_LogKd": 5.51,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "3,3′,4,4′-tetrachlorobiphenyl",
+      "Observed_LogKd": 5.63,
+      "Predicted_LogKd": 5.63,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "2,3,3′,4′,6-pentachlorobiphenyl",
+      "Observed_LogKd": 5.63,
+      "Predicted_LogKd": 5.63,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "2,2′,3,4′,5,5′,6-heptachlorobiphenyl",
+      "Observed_LogKd": 5.73,
+      "Predicted_LogKd": 5.73,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "2,2′,3,4,4′,5-hexachlorobiphenyl",
+      "Observed_LogKd": 5.77,
+      "Predicted_LogKd": 5.77,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "Benzo[a]pyrene",
+      "Observed_LogKd": 6.1,
+      "Predicted_LogKd": 6.1,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "2,2′,4,4′,5,5′-hexachlorobiphenyl",
+      "Observed_LogKd": 6.19,
+      "Predicted_LogKd": 6.19,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "Benzo[g,h,i]perylene",
+      "Observed_LogKd": 6.69,
+      "Predicted_LogKd": 6.69,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "TS",
+      "Compound": "Dibenz[a,h]anthracene",
+      "Observed_LogKd": 7.0,
+      "Predicted_LogKd": 7.0,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "VS",
+      "Compound": "β-Hexachlorocyclohexane",
+      "Observed_LogKd": 2.18,
+      "Predicted_LogKd": 2.58,
+      "Residual_obs_minus_pred": -0.3999999999999999
+    },
+    {
+      "Model": "kNN",
+      "Set": "VS",
+      "Compound": "δ-Hexachlorocyclohexane",
+      "Observed_LogKd": 2.23,
+      "Predicted_LogKd": 2.58,
+      "Residual_obs_minus_pred": -0.3500000000000001
+    },
+    {
+      "Model": "kNN",
+      "Set": "VS",
+      "Compound": "α-Hexachlorocyclohexane",
+      "Observed_LogKd": 2.69,
+      "Predicted_LogKd": 2.58,
+      "Residual_obs_minus_pred": 0.10999999999999988
+    },
+    {
+      "Model": "kNN",
+      "Set": "VS",
+      "Compound": "2,2′,3,5′-tetrachlorobiphenyl",
+      "Observed_LogKd": 5.14,
+      "Predicted_LogKd": 5.09,
+      "Residual_obs_minus_pred": 0.04999999999999982
+    },
+    {
+      "Model": "kNN",
+      "Set": "VS",
+      "Compound": "2,3′,4,4'-tetrachlorobiphenyl",
+      "Observed_LogKd": 5.26,
+      "Predicted_LogKd": 5.09,
+      "Residual_obs_minus_pred": 0.16999999999999993
+    },
+    {
+      "Model": "kNN",
+      "Set": "VS",
+      "Compound": "2,2′,4,5,5′-pentachlorobiphenyl",
+      "Observed_LogKd": 5.51,
+      "Predicted_LogKd": 5.51,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "kNN",
+      "Set": "VS",
+      "Compound": "2,3′,4,4′,5-pentachlorobiphenyl",
+      "Observed_LogKd": 5.71,
+      "Predicted_LogKd": 5.51,
+      "Residual_obs_minus_pred": 0.20000000000000018
+    },
+    {
+      "Model": "kNN",
+      "Set": "VS",
+      "Compound": "2,3,3′,4,4′-pentachlorobiphenyl",
+      "Observed_LogKd": 5.77,
+      "Predicted_LogKd": 5.26,
+      "Residual_obs_minus_pred": 0.5099999999999998
+    },
+    {
+      "Model": "kNN",
+      "Set": "VS",
+      "Compound": "2,3,3′,4,5,6-hexachlorobiphenyl",
+      "Observed_LogKd": 6.06,
+      "Predicted_LogKd": 5.77,
+      "Residual_obs_minus_pred": 0.29000000000000004
+    },
+    {
+      "Model": "kNN",
+      "Set": "VS",
+      "Compound": "2,2′,3,3′,4,6′-hexachlorobiphenyl",
+      "Observed_LogKd": 6.19,
+      "Predicted_LogKd": 6.19,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "Trimethoprim",
+      "Observed_LogKd": 0.594,
+      "Predicted_LogKd": 0.594,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "Sulfadiazine",
+      "Observed_LogKd": 0.853,
+      "Predicted_LogKd": 0.853,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "γ-Hexachlorocyclohexane",
+      "Observed_LogKd": 2.58,
+      "Predicted_LogKd": 2.58,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "Phenanthrene",
+      "Observed_LogKd": 4.0,
+      "Predicted_LogKd": 4.0,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "Anthracene",
+      "Observed_LogKd": 4.29,
+      "Predicted_LogKd": 4.29,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "Pentachlorobenzene",
+      "Observed_LogKd": 4.5,
+      "Predicted_LogKd": 4.878571428571428,
+      "Residual_obs_minus_pred": -0.3785714285714281
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "Fluoranthene",
+      "Observed_LogKd": 4.79,
+      "Predicted_LogKd": 4.878571428571428,
+      "Residual_obs_minus_pred": -0.08857142857142808
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "Pyrene",
+      "Observed_LogKd": 4.8,
+      "Predicted_LogKd": 4.878571428571428,
+      "Residual_obs_minus_pred": -0.07857142857142829
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "2,3-dichlorobiphenyl",
+      "Observed_LogKd": 4.98,
+      "Predicted_LogKd": 4.878571428571428,
+      "Residual_obs_minus_pred": 0.10142857142857231
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "2,4′-dichlorobiphenyl",
+      "Observed_LogKd": 4.98,
+      "Predicted_LogKd": 4.878571428571428,
+      "Residual_obs_minus_pred": 0.10142857142857231
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "Hexachlorobenzene",
+      "Observed_LogKd": 5.01,
+      "Predicted_LogKd": 4.878571428571428,
+      "Residual_obs_minus_pred": 0.13142857142857167
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "2,4,4′-trichlorobiohenyl",
+      "Observed_LogKd": 5.09,
+      "Predicted_LogKd": 4.878571428571428,
+      "Residual_obs_minus_pred": 0.21142857142857174
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "2,2′,5,5′-tetrachlorobiphenyl",
+      "Observed_LogKd": 5.09,
+      "Predicted_LogKd": 5.266666666666667,
+      "Residual_obs_minus_pred": -0.17666666666666675
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "2,2′,3,5′,6-pentachlorobiphenyl",
+      "Observed_LogKd": 5.26,
+      "Predicted_LogKd": 5.266666666666667,
+      "Residual_obs_minus_pred": -0.006666666666666821
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "2,2′,3,3′,4,4′-hexachlorobiphenyl",
+      "Observed_LogKd": 5.45,
+      "Predicted_LogKd": 5.266666666666667,
+      "Residual_obs_minus_pred": 0.18333333333333357
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "2,2′,3,4′,5-pentachlorobiphenyl",
+      "Observed_LogKd": 5.51,
+      "Predicted_LogKd": 5.743333333333333,
+      "Residual_obs_minus_pred": -0.2333333333333334
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "Chrysene",
+      "Observed_LogKd": 5.51,
+      "Predicted_LogKd": 5.51,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "3,3′,4,4′-tetrachlorobiphenyl",
+      "Observed_LogKd": 5.63,
+      "Predicted_LogKd": 5.743333333333333,
+      "Residual_obs_minus_pred": -0.11333333333333329
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "2,3,3′,4′,6-pentachlorobiphenyl",
+      "Observed_LogKd": 5.63,
+      "Predicted_LogKd": 5.743333333333333,
+      "Residual_obs_minus_pred": -0.11333333333333329
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "2,2′,3,4′,5,5′,6-heptachlorobiphenyl",
+      "Observed_LogKd": 5.73,
+      "Predicted_LogKd": 5.743333333333333,
+      "Residual_obs_minus_pred": -0.013333333333332753
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "2,2′,3,4,4′,5-hexachlorobiphenyl",
+      "Observed_LogKd": 5.77,
+      "Predicted_LogKd": 5.743333333333333,
+      "Residual_obs_minus_pred": 0.026666666666666394
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "Benzo[a]pyrene",
+      "Observed_LogKd": 6.1,
+      "Predicted_LogKd": 6.1,
+      "Residual_obs_minus_pred": 0.0
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "2,2′,4,4′,5,5′-hexachlorobiphenyl",
+      "Observed_LogKd": 6.19,
+      "Predicted_LogKd": 5.743333333333333,
+      "Residual_obs_minus_pred": 0.4466666666666672
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "Benzo[g,h,i]perylene",
+      "Observed_LogKd": 6.69,
+      "Predicted_LogKd": 6.845000000000001,
+      "Residual_obs_minus_pred": -0.15500000000000025
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "TS",
+      "Compound": "Dibenz[a,h]anthracene",
+      "Observed_LogKd": 7.0,
+      "Predicted_LogKd": 6.845000000000001,
+      "Residual_obs_minus_pred": 0.15499999999999936
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "VS",
+      "Compound": "β-Hexachlorocyclohexane",
+      "Observed_LogKd": 2.18,
+      "Predicted_LogKd": 2.58,
+      "Residual_obs_minus_pred": -0.3999999999999999
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "VS",
+      "Compound": "δ-Hexachlorocyclohexane",
+      "Observed_LogKd": 2.23,
+      "Predicted_LogKd": 2.58,
+      "Residual_obs_minus_pred": -0.3500000000000001
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "VS",
+      "Compound": "α-Hexachlorocyclohexane",
+      "Observed_LogKd": 2.69,
+      "Predicted_LogKd": 2.58,
+      "Residual_obs_minus_pred": 0.10999999999999988
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "VS",
+      "Compound": "2,2′,3,5′-tetrachlorobiphenyl",
+      "Observed_LogKd": 5.14,
+      "Predicted_LogKd": 5.743333333333333,
+      "Residual_obs_minus_pred": -0.6033333333333335
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "VS",
+      "Compound": "2,3′,4,4'-tetrachlorobiphenyl",
+      "Observed_LogKd": 5.26,
+      "Predicted_LogKd": 5.266666666666667,
+      "Residual_obs_minus_pred": -0.006666666666666821
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "VS",
+      "Compound": "2,2′,4,5,5′-pentachlorobiphenyl",
+      "Observed_LogKd": 5.51,
+      "Predicted_LogKd": 5.743333333333333,
+      "Residual_obs_minus_pred": -0.2333333333333334
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "VS",
+      "Compound": "2,3′,4,4′,5-pentachlorobiphenyl",
+      "Observed_LogKd": 5.71,
+      "Predicted_LogKd": 5.743333333333333,
+      "Residual_obs_minus_pred": -0.033333333333333215
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "VS",
+      "Compound": "2,3,3′,4,4′-pentachlorobiphenyl",
+      "Observed_LogKd": 5.77,
+      "Predicted_LogKd": 5.266666666666667,
+      "Residual_obs_minus_pred": 0.503333333333333
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "VS",
+      "Compound": "2,3,3′,4,5,6-hexachlorobiphenyl",
+      "Observed_LogKd": 6.06,
+      "Predicted_LogKd": 5.743333333333333,
+      "Residual_obs_minus_pred": 0.31666666666666643
+    },
+    {
+      "Model": "Decision Tree",
+      "Set": "VS",
+      "Compound": "2,2′,3,3′,4,6′-hexachlorobiphenyl",
+      "Observed_LogKd": 6.19,
+      "Predicted_LogKd": 5.743333333333333,
+      "Residual_obs_minus_pred": 0.4466666666666672
+    },
+    {
+      "Model": "MLR",
+      "Set": "TRUE_EXT",
+      "Compound": "Naphthalene",
+      "Observed_LogKd": null,
+      "Predicted_LogKd": 3.410685351980203,
+      "Residual_obs_minus_pred": null
+    },
+    {
+      "Model": "MLR",
+      "Set": "TRUE_EXT",
+      "Compound": "Nitrobenzene",
+      "Observed_LogKd": null,
+      "Predicted_LogKd": 1.7252211423832153,
+      "Residual_obs_minus_pred": null
+    }
+  ],
+  "true_external": [
+    {
+      "Compound": "Naphthalene",
+      "Set": "TRUE_EXT",
+      "Observed_LogKd": null,
+      "Descriptors_used": "log D, εβ, π",
+      "Missing_features": "",
+      "Predicted_LogKd": 3.410685351980203,
+      "Residual_obs_minus_pred": null
+    },
+    {
+      "Compound": "Nitrobenzene",
+      "Set": "TRUE_EXT",
+      "Observed_LogKd": null,
+      "Descriptors_used": "log D, εβ, π",
+      "Missing_features": "",
+      "Predicted_LogKd": 1.7252211423832153,
+      "Residual_obs_minus_pred": null
+    }
+  ],
+  "ad": {
+    "distance_threshold": 1.385413860696612,
+    "h_star": 0.48,
+    "rows": [
+      {
+        "Compound": "β-Hexachlorocyclohexane",
+        "Set": "VS",
+        "Observed_LogKd": 2.18,
+        "Predicted_LogKd": 2.8176371901899704,
+        "Residual": -0.6376371901899702,
+        "Nearest_distance_std": 0.17544262180865094,
+        "Distance_threshold": 1.385413860696612,
+        "Distance_AD": "inside",
+        "Range_AD": "outside",
+        "Leverage": 0.4082105333317776,
+        "Leverage_threshold_h*": 0.48,
+        "Leverage_AD": "inside",
+        "Std_residual": -1.5131429180314504,
+        "Overall_AD": "outside/warning"
+      },
+      {
+        "Compound": "δ-Hexachlorocyclohexane",
+        "Set": "VS",
+        "Observed_LogKd": 2.23,
+        "Predicted_LogKd": 2.705609485583248,
+        "Residual": -0.4756094855832482,
+        "Nearest_distance_std": 0.3508852436173024,
+        "Distance_threshold": 1.385413860696612,
+        "Distance_AD": "inside",
+        "Range_AD": "outside",
+        "Leverage": 0.41201042463742044,
+        "Leverage_threshold_h*": 0.48,
+        "Leverage_AD": "inside",
+        "Std_residual": -1.1286435859308404,
+        "Overall_AD": "outside/warning"
+      },
+      {
+        "Compound": "α-Hexachlorocyclohexane",
+        "Set": "VS",
+        "Observed_LogKd": 2.69,
+        "Predicted_LogKd": 2.7206937175100108,
+        "Residual": -0.03069371751001082,
+        "Nearest_distance_std": 0.30144318202496206,
+        "Distance_threshold": 1.385413860696612,
+        "Distance_AD": "inside",
+        "Range_AD": "outside",
+        "Leverage": 0.42130033996502636,
+        "Leverage_threshold_h*": 0.48,
+        "Leverage_AD": "inside",
+        "Std_residual": -0.07283762928648158,
+        "Overall_AD": "outside/warning"
+      },
+      {
+        "Compound": "2,2′,3,5′-tetrachlorobiphenyl",
+        "Set": "VS",
+        "Observed_LogKd": 5.14,
+        "Predicted_LogKd": 5.209416468306567,
+        "Residual": -0.06941646830656722,
+        "Nearest_distance_std": 0.6016414951726687,
+        "Distance_threshold": 1.385413860696612,
+        "Distance_AD": "inside",
+        "Range_AD": "inside",
+        "Leverage": 0.0618573145068444,
+        "Leverage_threshold_h*": 0.48,
+        "Leverage_AD": "inside",
+        "Std_residual": -0.16472853062655163,
+        "Overall_AD": "inside"
+      },
+      {
+        "Compound": "2,3′,4,4'-tetrachlorobiphenyl",
+        "Set": "VS",
+        "Observed_LogKd": 5.26,
+        "Predicted_LogKd": 5.184103847843088,
+        "Residual": 0.07589615215691214,
+        "Nearest_distance_std": 0.3056065984676344,
+        "Distance_threshold": 1.385413860696612,
+        "Distance_AD": "inside",
+        "Range_AD": "inside",
+        "Leverage": 0.07959105152410305,
+        "Leverage_threshold_h*": 0.48,
+        "Leverage_AD": "inside",
+        "Std_residual": 0.18010512389946137,
+        "Overall_AD": "inside"
+      },
+      {
+        "Compound": "2,2′,4,5,5′-pentachlorobiphenyl",
+        "Set": "VS",
+        "Observed_LogKd": 5.51,
+        "Predicted_LogKd": 5.651515851851868,
+        "Residual": -0.1415158518518682,
+        "Nearest_distance_std": 0.40895995914869876,
+        "Distance_threshold": 1.385413860696612,
+        "Distance_AD": "inside",
+        "Range_AD": "inside",
+        "Leverage": 0.06931934559877113,
+        "Leverage_threshold_h*": 0.48,
+        "Leverage_AD": "inside",
+        "Std_residual": -0.33582374477725463,
+        "Overall_AD": "inside"
+      },
+      {
+        "Compound": "2,3′,4,4′,5-pentachlorobiphenyl",
+        "Set": "VS",
+        "Observed_LogKd": 5.71,
+        "Predicted_LogKd": 5.661927185127281,
+        "Residual": 0.04807281487271897,
+        "Nearest_distance_std": 0.3454335370934218,
+        "Distance_threshold": 1.385413860696612,
+        "Distance_AD": "inside",
+        "Range_AD": "inside",
+        "Leverage": 0.07016120585271726,
+        "Leverage_threshold_h*": 0.48,
+        "Leverage_AD": "inside",
+        "Std_residual": 0.1140790413319839,
+        "Overall_AD": "inside"
+      },
+      {
+        "Compound": "2,3,3′,4,4′-pentachlorobiphenyl",
+        "Set": "VS",
+        "Observed_LogKd": 5.77,
+        "Predicted_LogKd": 5.594324150167848,
+        "Residual": 0.17567584983215134,
+        "Nearest_distance_std": 0.2443642815151409,
+        "Distance_threshold": 1.385413860696612,
+        "Distance_AD": "inside",
+        "Range_AD": "inside",
+        "Leverage": 0.0964384532524463,
+        "Leverage_threshold_h*": 0.48,
+        "Leverage_AD": "inside",
+        "Std_residual": 0.41688701997366284,
+        "Overall_AD": "inside"
+      },
+      {
+        "Compound": "2,3,3′,4,5,6-hexachlorobiphenyl",
+        "Set": "VS",
+        "Observed_LogKd": 6.06,
+        "Predicted_LogKd": 6.023069168589044,
+        "Residual": 0.03693083141095599,
+        "Nearest_distance_std": 0.2672739497071095,
+        "Distance_threshold": 1.385413860696612,
+        "Distance_AD": "inside",
+        "Range_AD": "inside",
+        "Leverage": 0.08979161302231478,
+        "Leverage_threshold_h*": 0.48,
+        "Leverage_AD": "inside",
+        "Std_residual": 0.08763859270795163,
+        "Overall_AD": "inside"
+      },
+      {
+        "Compound": "2,2′,3,3′,4,6′-hexachlorobiphenyl",
+        "Set": "VS",
+        "Observed_LogKd": 6.19,
+        "Predicted_LogKd": 6.010247571451296,
+        "Residual": 0.17975242854870466,
+        "Nearest_distance_std": 0.22160185351980444,
+        "Distance_threshold": 1.385413860696612,
+        "Distance_AD": "inside",
+        "Range_AD": "inside",
+        "Leverage": 0.08787500890002815,
+        "Leverage_threshold_h*": 0.48,
+        "Leverage_AD": "inside",
+        "Std_residual": 0.426560932207221,
+        "Overall_AD": "inside"
+      },
+      {
+        "Compound": "Naphthalene",
+        "Set": "TRUE_EXT",
+        "Observed_LogKd": null,
+        "Predicted_LogKd": 3.410685351980203,
+        "Residual": null,
+        "Nearest_distance_std": 1.2065022065875668,
+        "Distance_threshold": 1.385413860696612,
+        "Distance_AD": "inside",
+        "Range_AD": "inside",
+        "Leverage": 0.12269886318426576,
+        "Leverage_threshold_h*": 0.48,
+        "Leverage_AD": "inside",
+        "Std_residual": null,
+        "Overall_AD": "inside"
+      },
+      {
+        "Compound": "Nitrobenzene",
+        "Set": "TRUE_EXT",
+        "Observed_LogKd": null,
+        "Predicted_LogKd": 1.7252211423832153,
+        "Residual": null,
+        "Nearest_distance_std": 1.7625851283689742,
+        "Distance_threshold": 1.385413860696612,
+        "Distance_AD": "outside",
+        "Range_AD": "outside",
+        "Leverage": 0.3182104644766372,
+        "Leverage_threshold_h*": 0.48,
+        "Leverage_AD": "inside",
+        "Std_residual": null,
+        "Overall_AD": "outside/warning"
+      }
+    ]
+  },
+  "mlr_equation": {
+    "features": [
+      "log D",
+      "εβ",
+      "π"
+    ],
+    "intercept_standardized": 4.88108,
+    "coef_standardized": {
+      "log D": 1.4634514152059168,
+      "εβ": -0.39871868851257936,
+      "π": 0.17213390016888122
+    },
+    "intercept_raw": 4.106075466463598,
+    "coef_raw": {
+      "log D": 0.6985982125135437,
+      "εβ": -13.29980002308687,
+      "π": 0.7542115963381347
+    },
+    "vif": {
+      "log D": 1.5861176448820937,
+      "εβ": 2.611808565841144,
+      "π": 2.3300293744050373
+    }
+  }
+}

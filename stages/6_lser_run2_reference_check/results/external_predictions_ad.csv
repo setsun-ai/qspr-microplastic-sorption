@@ -1,0 +1,3 @@
+compound,log D,εβ,π,Mw',εα,V',MLR_LogKda_pred,kNN_LogKda_pred_sensitivity,DT_LogKda_pred_sensitivity,MLR_min_distance_scaled,MLR_leverage_h,h_star,MLR_AD_status
+Naphthalene / naftalen,3.3,0.296,1.241,1.281,0.255,1.109,3.4918491395010722,2.435,0.7235,0.49247436751306056,0.09242455425988286,0.375,wiarygodne/umiarkowanie pewne
+Nitrobenzene / nitrobenzen,1.85,0.327,0.896,1.231,0.291,0.738,1.7245601203609637,1.642,2.435,1.350292521310672,0.2087028891375156,0.375,ostrożne: większa odległość od TS

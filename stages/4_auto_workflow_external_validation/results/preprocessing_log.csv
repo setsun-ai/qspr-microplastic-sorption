@@ -1,0 +1,7 @@
+step,n_descriptors,details,dropped,remaining,examples,threshold
+initial_numeric_descriptor_detection,1996.0,numeric columns excluding target/name/set/exclude,,,,
+drop_missing_or_nonfinite,,,56.0,1940.0,SCH-3; SCH-4; SCH-5; SCH-6; SCH-7; VCH-3; VCH-4; VCH-5; VCH-6; VCH-7; SC-3; SC-4; SC-5; SC-6; VC-3; VC-4; VC-5; VC-6; SPC-4; SPC-5,
+drop_constant_low_variance,,,524.0,1416.0,nAcid; nA; nR; nN; nD; nC; nF; nQ; nE; nG; nH; nI; nP; nL; nK; nM; nS; nT; nY; nV,1e-08
+drop_exact_numeric_duplicates,,,88.0,1328.0,,
+TS_only_filter_abs_r_y,,required_keep descriptors may be retained for audit,,711.0,,0.3
+TS_only_greedy_intercorrelation_prune,,,,118.0,,0.85

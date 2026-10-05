@@ -1,0 +1,141 @@
+Model,Compound,Set,Observed,Predicted,Residual,Leverage_h,Standardized_residual,High_leverage,Residual_outlier,Outside_AD,h_star,AD_basis
+MLR_allsub,Trimethoprim,TS,0.594,0.7380214275184489,-0.14402142751844893,0.6367534434248526,-0.3690926282377905,True,False,True,0.6,descriptor-space leverage
+MLR_allsub,Sulfadiazine,TS,0.853,0.6770413484865774,0.1759586515134226,0.6791739402730825,0.450940129307823,True,False,True,0.6,descriptor-space leverage
+MLR_allsub,β-Hexachlorocyclohexane,VS,2.18,2.672492980486621,-0.4924929804866207,0.7075515735484795,-1.2621422498619834,True,False,True,0.6,descriptor-space leverage
+MLR_allsub,δ-Hexachlorocyclohexane,VS,2.23,2.672492980486621,-0.4424929804866209,0.7075515735484795,-1.134004154511377,True,False,True,0.6,descriptor-space leverage
+MLR_allsub,γ-Hexachlorocyclohexane,TS,2.58,2.672492980486621,-0.0924929804866208,0.7075515735484795,-0.2370374870571287,True,False,True,0.6,descriptor-space leverage
+MLR_allsub,α-Hexachlorocyclohexane,VS,2.69,2.672492980486621,0.017507019513379074,0.7075515735484795,0.044866322714206056,True,False,True,0.6,descriptor-space leverage
+MLR_allsub,Phenanthrene,TS,4.0,4.628386622610868,-0.6283866226108676,0.14963544335828516,-1.6104052993031432,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,Anthracene,TS,4.29,4.628386622610868,-0.3383866226108676,0.14963544335828516,-0.8672043462696234,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,Pentachlorobenzene,TS,4.5,4.747213288416365,-0.24721328841636492,0.05131932538086015,-0.6335487984606648,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,Fluoranthene,TS,4.79,5.143528360177282,-0.3535283601772816,0.12558848608713413,-0.906009014510804,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,Pyrene,TS,4.8,5.143528360177282,-0.34352836017728183,0.12558848608713413,-0.8803813954406832,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,3-dichlorobiphenyl",TS,4.98,4.385626483015616,0.5943735169843842,0.12654593958298127,1.5232378078644115,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,4′-dichlorobiphenyl",TS,4.98,4.5455289562557715,0.43447104374422896,0.20878829356912806,1.1134458406075138,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,Hexachlorobenzene,TS,5.01,4.388048510623659,0.6219514893763405,0.09428109530427999,1.5939135849831494,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,4,4′-trichlorobiohenyl",TS,5.09,4.901768301840347,0.1882316981596528,0.14101645211875335,0.4823930257357648,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,2′,5,5′-tetrachlorobiphenyl",TS,5.09,5.225733301533174,-0.13573330153317453,0.08646068042973538,-0.3478521346822118,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,2′,3,5′-tetrachlorobiphenyl",VS,5.14,5.219379451014403,-0.07937945101440302,0.08598126183921129,-0.203430633259248,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,3′,4,4'-tetrachlorobiphenyl",VS,5.26,5.21439447225984,0.045605527740160134,0.08561332816315313,0.1168761092416677,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,2′,3,5′,6-pentachlorobiphenyl",TS,5.26,5.533249077173067,-0.2732490771730669,0.08111318742790617,-0.7002723261053556,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,2′,3,3′,4,4′-hexachlorobiphenyl",TS,5.45,5.823443519215169,-0.3734435192151686,0.1291677415937896,-0.9570468254651892,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,2′,3,4′,5-pentachlorobiphenyl",TS,5.51,5.529910792931989,-0.01991079293198883,0.08113793164347519,-0.05102662166450748,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,2′,4,5,5′-pentachlorobiphenyl",VS,5.51,5.531493810417144,-0.021493810417144488,0.08112579485883045,-0.05508351857359855,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,Chrysene,TS,5.51,5.443882443256608,0.06611755674339204,0.11462099556859523,0.16944355580667855,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"3,3′,4,4′-tetrachlorobiphenyl",TS,5.63,5.850732792586309,-0.2207327925863094,0.16095645118170085,-0.5656855924686048,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,3,3′,4′,6-pentachlorobiphenyl",TS,5.63,5.526890510551504,0.10310948944849585,0.08116310449636097,0.26424507181007506,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,3′,4,4′,5-pentachlorobiphenyl",VS,5.71,5.524105084357732,0.185894915642268,0.08118866566774843,0.47640440851523913,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,2′,3,4′,5,5′,6-heptachlorobiphenyl",TS,5.73,6.1388302960998535,-0.4088302960998531,0.2274579271820495,-1.0477347092771963,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,3,3′,4,4′-pentachlorobiphenyl",VS,5.77,5.517751233838961,0.2522487661610384,0.08125539672401724,0.6464535290083214,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,2′,3,4,4′,5-hexachlorobiphenyl",TS,5.77,5.826036421065104,-0.056036421065104314,0.12892172722067133,-0.14360800531094184,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,3,3′,4,5,6-hexachlorobiphenyl",VS,6.06,5.831016683716876,0.22898331628312363,0.12845467117200693,0.5868297203117013,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,Benzo[a]pyrene,TS,6.1,5.959024180823022,0.14097581917697788,0.15129025457010287,0.36128745919659006,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,2′,3,3′,4,6′-hexachlorobiphenyl",VS,6.19,5.830832245274581,0.3591677547254193,0.12847183976215942,0.9204614400373831,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"2,2′,4,4′,5,5′-hexachlorobiphenyl",TS,6.19,5.8361512202527095,0.3538487797472909,0.12798068054607578,0.9068301735790849,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"Benzo[g,h,i]perylene",TS,6.69,6.474165918389436,0.2158340816105646,0.23145952098363262,0.5531313625865039,False,False,False,0.6,descriptor-space leverage
+MLR_allsub,"Dibenz[a,h]anthracene",TS,7.0,6.259378263902342,0.7406217360976584,0.2023918750626495,1.8980371727762748,False,False,False,0.6,descriptor-space leverage
+kNN_k2_distance,Trimethoprim,TS,0.594,0.594,0.0,0.41972265876228604,0.0,True,False,True,0.36,descriptor-space leverage
+kNN_k2_distance,Sulfadiazine,TS,0.853,0.853,0.0,0.5818623864091177,0.0,True,False,True,0.36,descriptor-space leverage
+kNN_k2_distance,β-Hexachlorocyclohexane,VS,2.18,2.58,-0.3999999999999999,0.1669572543918707,-2.5993388034416527,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,δ-Hexachlorocyclohexane,VS,2.23,2.58,-0.3500000000000001,0.1669572543918707,-2.2744214530114473,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,γ-Hexachlorocyclohexane,TS,2.58,2.58,0.0,0.1669572543918707,0.0,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,α-Hexachlorocyclohexane,VS,2.69,2.58,0.10999999999999988,0.1669572543918707,0.714818170946454,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,Phenanthrene,TS,4.0,4.145,-0.14499999999999957,0.12292603394005461,-0.9422603162475967,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,Anthracene,TS,4.29,4.145,0.14500000000000046,0.12292603394005461,0.9422603162476024,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,Pentachlorobenzene,TS,4.5,4.5,0.0,0.05161349501476605,0.0,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,Fluoranthene,TS,4.79,4.795,-0.004999999999999893,0.07036384499034132,-0.03249173504301998,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,Pyrene,TS,4.8,4.795,0.004999999999999893,0.07036384499034132,0.03249173504301998,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,3-dichlorobiphenyl",TS,4.98,4.98,0.0,0.11128861186042972,0.0,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,4′-dichlorobiphenyl",TS,4.98,4.98,0.0,0.11128861186042972,0.0,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,Hexachlorobenzene,TS,5.01,5.01,0.0,0.05006646541073566,0.0,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,4,4′-trichlorobiohenyl",TS,5.09,5.09,0.0,0.060390426630115505,0.0,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,2′,5,5′-tetrachlorobiphenyl",TS,5.09,5.09,0.0,0.043453209292459806,0.0,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,2′,3,5′-tetrachlorobiphenyl",VS,5.14,5.09,0.04999999999999982,0.043453209292459806,0.32491735043020553,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,3′,4,4'-tetrachlorobiphenyl",VS,5.26,5.09,0.16999999999999993,0.043453209292459806,1.1047189914627022,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,2′,3,5′,6-pentachlorobiphenyl",TS,5.26,5.385,-0.125,0.06047695984746265,-0.8122933760755167,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,2′,3,3′,4,4′-hexachlorobiphenyl",TS,5.45,5.609999999999999,-0.15999999999999925,0.11146167829512298,-1.0397355213766566,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,2′,3,4′,5-pentachlorobiphenyl",TS,5.51,5.385,0.125,0.06047695984746265,0.8122933760755167,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,2′,4,5,5′-pentachlorobiphenyl",VS,5.51,5.385,0.125,0.06047695984746265,0.8122933760755167,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,Chrysene,TS,5.51,5.51,0.0,0.04614925813451485,0.0,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"3,3′,4,4′-tetrachlorobiphenyl",TS,5.63,5.63,0.0,0.058206404966308405,0.0,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,3,3′,4′,6-pentachlorobiphenyl",TS,5.63,5.385,0.2450000000000001,0.06047695984746265,1.5920950171080135,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,3′,4,4′,5-pentachlorobiphenyl",VS,5.71,5.385,0.3250000000000002,0.06047695984746265,2.111962777796345,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,2′,3,4′,5,5′,6-heptachlorobiphenyl",TS,5.73,5.73,0.0,0.196407364635444,0.0,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,3,3′,4,4′-pentachlorobiphenyl",VS,5.77,5.385,0.3849999999999998,0.06047695984746265,2.50186359831259,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,2′,3,4,4′,5-hexachlorobiphenyl",TS,5.77,5.609999999999999,0.16000000000000014,0.11146167829512298,1.0397355213766624,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,3,3′,4,5,6-hexachlorobiphenyl",VS,6.06,5.609999999999999,0.4500000000000002,0.11146167829512298,2.924256153871861,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,Benzo[a]pyrene,TS,6.1,6.1,0.0,0.047801376533557816,0.0,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"2,2′,3,3′,4,6′-hexachlorobiphenyl",VS,6.19,5.609999999999999,0.580000000000001,0.11146167829512298,3.769041264990404,False,True,True,0.36,descriptor-space leverage
+kNN_k2_distance,"2,2′,4,4′,5,5′-hexachlorobiphenyl",TS,6.19,5.609999999999999,0.580000000000001,0.11146167829512298,3.769041264990404,False,True,True,0.36,descriptor-space leverage
+kNN_k2_distance,"Benzo[g,h,i]perylene",TS,6.69,6.69,0.0,0.07723762226794154,0.0,False,False,False,0.36,descriptor-space leverage
+kNN_k2_distance,"Dibenz[a,h]anthracene",TS,7.0,7.0,0.0,0.07515918154147215,0.0,False,False,False,0.36,descriptor-space leverage
+SVR_RBF_grid,Trimethoprim,TS,0.594,0.6440632767576973,-0.050063276757697284,0.44387989109288467,-0.13735657432933565,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,Sulfadiazine,TS,0.853,0.8029149122637995,0.05008508773620046,0.5017529751215046,0.13741641622311473,True,False,True,0.48,descriptor-space leverage
+SVR_RBF_grid,β-Hexachlorocyclohexane,VS,2.18,2.7119895477699854,-0.5319895477699852,0.0948152576068404,-1.45959806455263,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,δ-Hexachlorocyclohexane,VS,2.23,2.7119895477699854,-0.48198954776998537,0.0948152576068404,-1.3224151000873483,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,γ-Hexachlorocyclohexane,TS,2.58,2.7119895477699854,-0.13198954776998528,0.0948152576068404,-0.36213434883037154,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,α-Hexachlorocyclohexane,VS,2.69,2.7119895477699854,-0.021989547769985407,0.0948152576068404,-0.060331827006750736,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,Phenanthrene,TS,4.0,4.239824763083052,-0.23982476308305234,0.14347045600941832,-0.6579974390383425,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,Anthracene,TS,4.29,4.239824763083052,0.050175236916947696,0.14347045600941832,0.13766375486029517,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,Pentachlorobenzene,TS,4.5,4.461892017245334,0.0381079827546662,0.042529728505313016,0.10455532088153932,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,Fluoranthene,TS,4.79,4.884466577005354,-0.09446657700535432,0.09462419311304712,-0.2591841015296476,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,Pyrene,TS,4.8,4.884466577005354,-0.08446657700535454,0.09462419311304712,-0.23174750863659171,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,3-dichlorobiphenyl",TS,4.98,4.098172356083097,0.8818276439169033,0.10646445627394147,2.4194346067991237,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,4′-dichlorobiphenyl",TS,4.98,4.10455787061179,0.8754421293882109,0.10701511518345527,2.4019149305454808,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,Hexachlorobenzene,TS,5.01,4.2954965913980825,0.7145034086019173,0.04236001075955715,1.9603539142511988,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,4,4′-trichlorobiohenyl",TS,5.09,4.669667515014878,0.42033248498512155,0.05779853457125259,1.1532491270263552,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,2′,5,5′-tetrachlorobiphenyl",TS,5.09,5.18990700531875,-0.09990700531874985,0.04459687214713472,-0.2741107832094967,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,2′,3,5′-tetrachlorobiphenyl",VS,5.14,5.182463740490062,-0.04246374049006274,0.04452443379462923,-0.11650603605422497,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,3′,4,4'-tetrachlorobiphenyl",VS,5.26,5.1766132947494725,0.08338670525052727,0.04447027475739867,0.2287847084652011,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,2′,3,5′,6-pentachlorobiphenyl",TS,5.26,5.5638716291176955,-0.3038716291176957,0.067316227201114,-0.8337202179852061,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,2′,3,3′,4,4′-hexachlorobiphenyl",TS,5.45,5.744943289336822,-0.294943289336822,0.12800280708756148,-0.8092238956073349,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,2′,3,4′,5-pentachlorobiphenyl",TS,5.51,5.5598226642464255,-0.049822664246425674,0.06741196486723049,-0.13669641557766213,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,2′,4,5,5′-pentachlorobiphenyl",VS,5.51,5.561743153328424,-0.05174315332842383,0.06736643456616742,-0.14196558328749645,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,Chrysene,TS,5.51,5.48118807808502,0.028811921914980054,0.068692301309773,0.07905009720478397,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"3,3′,4,4′-tetrachlorobiphenyl",TS,5.63,5.684139137504019,-0.054139137504019,0.06217595751020374,-0.14853934752789746,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,3,3′,4′,6-pentachlorobiphenyl",TS,5.63,5.556156185474015,0.07384381452598454,0.06749949091056028,0.20260226768198075,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,3′,4,4′,5-pentachlorobiphenyl",VS,5.71,5.552772116685784,0.15722788331421622,0.06758097575989962,0.4313797425929137,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,2′,3,4′,5,5′,6-heptachlorobiphenyl",TS,5.73,5.780192584073577,-0.050192584073576185,0.22407586808334237,-0.13771134954772196,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,3,3′,4,4′-pentachlorobiphenyl",VS,5.77,5.545043084895323,0.2249569151046762,0.06776959760586711,0.6172051298204866,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,2′,3,4,4′,5-hexachlorobiphenyl",TS,5.77,5.748101746288415,0.02189825371158438,0.1278206334412014,0.06008134721536035,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,3,3′,4,5,6-hexachlorobiphenyl",VS,6.06,5.7541635013589945,0.30583649864100515,0.1274725109173628,0.8391111505051077,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,Benzo[a]pyrene,TS,6.1,6.028035824731017,0.0719641752689828,0.06301793789616561,0.19744517797396435,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,2′,3,3′,4,6′-hexachlorobiphenyl",VS,6.19,5.75393912387659,0.4360608761234106,0.12748536141179406,1.1964024734787544,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"2,2′,4,4′,5,5′-hexachlorobiphenyl",TS,6.19,5.760406383210091,0.4295936167899095,0.12711606076771947,1.1786585173320454,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"Benzo[g,h,i]perylene",TS,6.69,6.440404526799059,0.24959547320094178,0.07946861141831385,0.6848049386164026,False,False,False,0.48,descriptor-space leverage
+SVR_RBF_grid,"Dibenz[a,h]anthracene",TS,7.0,6.950181193176173,0.049818806823827444,0.9999999999999993,0.13668583212431773,True,False,True,0.48,descriptor-space leverage
+PLS_TOP19_LV4,Trimethoprim,TS,0.594,0.7760354537587872,-0.18203545375878727,0.5610596961506379,-0.5042169672990139,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,Sulfadiazine,TS,0.853,0.6738947829754016,0.17910521702459836,0.5317653229896261,0.49610055344076254,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,β-Hexachlorocyclohexane,VS,2.18,2.5285214675952963,-0.3485214675952961,0.7547747559937719,-0.9653638002977145,True,False,True,0.6,PLS score-space leverage
+PLS_TOP19_LV4,δ-Hexachlorocyclohexane,VS,2.23,2.5285214675952963,-0.2985214675952963,0.7547747559937719,-0.8268696342197308,True,False,True,0.6,PLS score-space leverage
+PLS_TOP19_LV4,γ-Hexachlorocyclohexane,TS,2.58,2.5285214675952963,0.05147853240470379,0.7547747559937719,0.14258952832615876,True,False,True,0.6,PLS score-space leverage
+PLS_TOP19_LV4,α-Hexachlorocyclohexane,VS,2.69,2.5285214675952963,0.16147853240470367,0.7547747559937719,0.4472766936977236,True,False,True,0.6,PLS score-space leverage
+PLS_TOP19_LV4,Phenanthrene,TS,4.0,4.60810087877572,-0.60810087877572,0.1447440439293671,-1.684368481946654,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,Anthracene,TS,4.29,4.542652317587482,-0.25265231758748197,0.14436670777720487,-0.6998174406389667,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,Pentachlorobenzene,TS,4.5,4.674352969126572,-0.17435296912657172,0.06719368517593331,-0.4829373812481015,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,Fluoranthene,TS,4.79,5.172130532346922,-0.3821305323469222,0.1397635340902281,-1.058456988206463,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,Pyrene,TS,4.8,5.160482639171191,-0.36048263917119083,0.13869285406437865,-0.998494849952099,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,3-dichlorobiphenyl",TS,4.98,4.644171345496926,0.3358286545030742,0.07534575250195834,0.9302061890098946,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,4′-dichlorobiphenyl",TS,4.98,4.6111269678553075,0.3688730321446929,0.07676859742326962,1.021735259510734,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,Hexachlorobenzene,TS,5.01,4.967198791336992,0.04280120866300763,0.04663835277570038,0.11855435401826069,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,4,4′-trichlorobiohenyl",TS,5.09,4.7567937790261485,0.33320622097385133,0.05707585428595643,0.9229423541154013,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,2′,5,5′-tetrachlorobiphenyl",TS,5.09,5.245017028720994,-0.15501702872099443,0.05061548214154151,-0.42937908241202094,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,2′,3,5′-tetrachlorobiphenyl",VS,5.14,5.367241109425333,-0.22724110942533304,0.05095695236623153,-0.6294313589699491,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,3′,4,4'-tetrachlorobiphenyl",VS,5.26,5.181348214064373,0.0786517859356266,0.051303180302712456,0.21785627007397465,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,2′,3,5′,6-pentachlorobiphenyl",TS,5.26,5.585981754099938,-0.32598175409993857,0.07736288346227393,-0.9029314238141899,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,2′,3,3′,4,4′-hexachlorobiphenyl",TS,5.45,6.054717556525676,-0.6047175565256762,0.13770634744076649,-1.6749970740747957,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,2′,3,4′,5-pentachlorobiphenyl",TS,5.51,5.314760198670875,0.19523980132912477,0.0781001883602449,0.5407914694061688,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,2′,4,5,5′-pentachlorobiphenyl",VS,5.51,5.528465484993138,-0.018465484993138048,0.07662031751254762,-0.05114723890700371,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,Chrysene,TS,5.51,5.231983750521597,0.2780162494784024,0.0740236136458803,0.770072572552803,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"3,3′,4,4′-tetrachlorobiphenyl",TS,5.63,5.403012246813174,0.22698775318682607,0.05147021576907783,0.6287295917504955,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,3,3′,4′,6-pentachlorobiphenyl",TS,5.63,5.6144570036514345,0.015542996348565374,0.0779095909094173,0.04305228635295429,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,3′,4,4′,5-pentachlorobiphenyl",VS,5.71,5.5849802617459785,0.12501973825402146,0.07734581437099379,0.34629008785557125,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,2′,3,4′,5,5′,6-heptachlorobiphenyl",TS,5.73,6.110115800668909,-0.38011580066890893,0.20511863739700711,-1.0528764165341162,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,3,3′,4,4′-pentachlorobiphenyl",VS,5.77,5.706037692810478,0.0639623071895219,0.08047197203695942,0.17716812789273376,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,2′,3,4,4′,5-hexachlorobiphenyl",TS,5.77,5.726115330613307,0.043884669386693,0.12619359614571446,0.12155541380636177,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,3,3′,4,5,6-hexachlorobiphenyl",VS,6.06,5.814792610014384,0.24520738998561598,0.12774447253295465,0.6791958598443387,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,Benzo[a]pyrene,TS,6.1,5.674230219280755,0.42576978071924465,0.09808617952161322,1.1793326144383596,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,2′,3,3′,4,6′-hexachlorobiphenyl",VS,6.19,6.000510090259477,0.18948990974052382,0.13471935613146552,0.5248649405941268,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"2,2′,4,4′,5,5′-hexachlorobiphenyl",TS,6.19,5.812043265574818,0.3779567344251822,0.12767911182577615,1.0468960549554749,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"Benzo[g,h,i]perylene",TS,6.69,6.139060709109134,0.5509392908908666,0.15754514496689176,1.5260375530305303,False,False,False,0.6,PLS score-space leverage
+PLS_TOP19_LV4,"Dibenz[a,h]anthracene",TS,7.0,7.00004321069663,-4.321069662971411e-05,0.9999998512557623,-0.00011968858790762034,True,False,True,0.6,PLS score-space leverage

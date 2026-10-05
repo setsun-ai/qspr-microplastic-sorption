@@ -1,0 +1,108 @@
+Model,Set,Compound,Observed_LogKd,Predicted_LogKd,Residual_obs_minus_pred
+MLR,TS,Trimethoprim,0.594,1.6237126530177934,-1.0297126530177936
+MLR,TS,Sulfadiazine,0.853,0.3068213936737392,0.5461786063262608
+MLR,TS,γ-Hexachlorocyclohexane,2.58,2.8512268887775263,-0.2712268887775262
+MLR,TS,Phenanthrene,4.0,4.379729687351261,-0.37972968735126056
+MLR,TS,Anthracene,4.29,4.693038824207961,-0.403038824207961
+MLR,TS,Pentachlorobenzene,4.5,4.1039271477833195,0.39607285221668054
+MLR,TS,Fluoranthene,4.79,4.784714456434777,0.005285543565222817
+MLR,TS,Pyrene,4.8,5.192576051544744,-0.3925760515447445
+MLR,TS,"2,3-dichlorobiphenyl",4.98,4.343727284293006,0.6362727157069941
+MLR,TS,"2,4′-dichlorobiphenyl",4.98,4.480643971578886,0.49935602842111404
+MLR,TS,Hexachlorobenzene,5.01,4.5328005458421945,0.4771994541578053
+MLR,TS,"2,4,4′-trichlorobiohenyl",5.09,4.803301914191763,0.2866980858082373
+MLR,TS,"2,2′,5,5′-tetrachlorobiphenyl",5.09,5.057065725846264,0.032934274153736176
+MLR,TS,"2,2′,3,5′,6-pentachlorobiphenyl",5.26,5.490390578946506,-0.2303905789465066
+MLR,TS,"2,2′,3,3′,4,4′-hexachlorobiphenyl",5.45,5.872300663858077,-0.42230066385807685
+MLR,TS,"2,2′,3,4′,5-pentachlorobiphenyl",5.51,5.50554862540993,0.004451374590069612
+MLR,TS,Chrysene,5.51,5.398040454430069,0.11195954556993115
+MLR,TS,"3,3′,4,4′-tetrachlorobiphenyl",5.63,5.440185967350394,0.18981403264960583
+MLR,TS,"2,3,3′,4′,6-pentachlorobiphenyl",5.63,5.512814732662312,0.11718526733768808
+MLR,TS,"2,2′,3,4′,5,5′,6-heptachlorobiphenyl",5.73,6.400504432607356,-0.6705044326073555
+MLR,TS,"2,2′,3,4,4′,5-hexachlorobiphenyl",5.77,6.06907607596567,-0.29907607596567054
+MLR,TS,Benzo[a]pyrene,6.1,6.221367850019378,-0.12136785001937866
+MLR,TS,"2,2′,4,4′,5,5′-hexachlorobiphenyl",6.19,5.9858367916574755,0.20416320834252488
+MLR,TS,"Benzo[g,h,i]perylene",6.69,6.561778380342301,0.1282216196576993
+MLR,TS,"Dibenz[a,h]anthracene",7.0,6.415868902207291,0.5841310977927092
+MLR,VS,β-Hexachlorocyclohexane,2.18,2.8176371901899704,-0.6376371901899702
+MLR,VS,δ-Hexachlorocyclohexane,2.23,2.705609485583248,-0.4756094855832482
+MLR,VS,α-Hexachlorocyclohexane,2.69,2.7206937175100108,-0.03069371751001082
+MLR,VS,"2,2′,3,5′-tetrachlorobiphenyl",5.14,5.209416468306567,-0.06941646830656722
+MLR,VS,"2,3′,4,4'-tetrachlorobiphenyl",5.26,5.184103847843088,0.07589615215691214
+MLR,VS,"2,2′,4,5,5′-pentachlorobiphenyl",5.51,5.651515851851868,-0.1415158518518682
+MLR,VS,"2,3′,4,4′,5-pentachlorobiphenyl",5.71,5.661927185127281,0.04807281487271897
+MLR,VS,"2,3,3′,4,4′-pentachlorobiphenyl",5.77,5.594324150167848,0.17567584983215134
+MLR,VS,"2,3,3′,4,5,6-hexachlorobiphenyl",6.06,6.023069168589044,0.03693083141095599
+MLR,VS,"2,2′,3,3′,4,6′-hexachlorobiphenyl",6.19,6.010247571451296,0.17975242854870466
+kNN,TS,Trimethoprim,0.594,0.594,0.0
+kNN,TS,Sulfadiazine,0.853,0.853,0.0
+kNN,TS,γ-Hexachlorocyclohexane,2.58,2.58,0.0
+kNN,TS,Phenanthrene,4.0,4.0,0.0
+kNN,TS,Anthracene,4.29,4.29,0.0
+kNN,TS,Pentachlorobenzene,4.5,4.5,0.0
+kNN,TS,Fluoranthene,4.79,4.79,0.0
+kNN,TS,Pyrene,4.8,4.8,0.0
+kNN,TS,"2,3-dichlorobiphenyl",4.98,4.98,0.0
+kNN,TS,"2,4′-dichlorobiphenyl",4.98,4.98,0.0
+kNN,TS,Hexachlorobenzene,5.01,5.01,0.0
+kNN,TS,"2,4,4′-trichlorobiohenyl",5.09,5.09,0.0
+kNN,TS,"2,2′,5,5′-tetrachlorobiphenyl",5.09,5.09,0.0
+kNN,TS,"2,2′,3,5′,6-pentachlorobiphenyl",5.26,5.26,0.0
+kNN,TS,"2,2′,3,3′,4,4′-hexachlorobiphenyl",5.45,5.45,0.0
+kNN,TS,"2,2′,3,4′,5-pentachlorobiphenyl",5.51,5.51,0.0
+kNN,TS,Chrysene,5.51,5.51,0.0
+kNN,TS,"3,3′,4,4′-tetrachlorobiphenyl",5.63,5.63,0.0
+kNN,TS,"2,3,3′,4′,6-pentachlorobiphenyl",5.63,5.63,0.0
+kNN,TS,"2,2′,3,4′,5,5′,6-heptachlorobiphenyl",5.73,5.73,0.0
+kNN,TS,"2,2′,3,4,4′,5-hexachlorobiphenyl",5.77,5.77,0.0
+kNN,TS,Benzo[a]pyrene,6.1,6.1,0.0
+kNN,TS,"2,2′,4,4′,5,5′-hexachlorobiphenyl",6.19,6.19,0.0
+kNN,TS,"Benzo[g,h,i]perylene",6.69,6.69,0.0
+kNN,TS,"Dibenz[a,h]anthracene",7.0,7.0,0.0
+kNN,VS,β-Hexachlorocyclohexane,2.18,2.58,-0.3999999999999999
+kNN,VS,δ-Hexachlorocyclohexane,2.23,2.58,-0.3500000000000001
+kNN,VS,α-Hexachlorocyclohexane,2.69,2.58,0.10999999999999988
+kNN,VS,"2,2′,3,5′-tetrachlorobiphenyl",5.14,5.09,0.04999999999999982
+kNN,VS,"2,3′,4,4'-tetrachlorobiphenyl",5.26,5.09,0.16999999999999993
+kNN,VS,"2,2′,4,5,5′-pentachlorobiphenyl",5.51,5.51,0.0
+kNN,VS,"2,3′,4,4′,5-pentachlorobiphenyl",5.71,5.51,0.20000000000000018
+kNN,VS,"2,3,3′,4,4′-pentachlorobiphenyl",5.77,5.26,0.5099999999999998
+kNN,VS,"2,3,3′,4,5,6-hexachlorobiphenyl",6.06,5.77,0.29000000000000004
+kNN,VS,"2,2′,3,3′,4,6′-hexachlorobiphenyl",6.19,6.19,0.0
+Decision Tree,TS,Trimethoprim,0.594,0.594,0.0
+Decision Tree,TS,Sulfadiazine,0.853,0.853,0.0
+Decision Tree,TS,γ-Hexachlorocyclohexane,2.58,2.58,0.0
+Decision Tree,TS,Phenanthrene,4.0,4.0,0.0
+Decision Tree,TS,Anthracene,4.29,4.29,0.0
+Decision Tree,TS,Pentachlorobenzene,4.5,4.878571428571428,-0.3785714285714281
+Decision Tree,TS,Fluoranthene,4.79,4.878571428571428,-0.08857142857142808
+Decision Tree,TS,Pyrene,4.8,4.878571428571428,-0.07857142857142829
+Decision Tree,TS,"2,3-dichlorobiphenyl",4.98,4.878571428571428,0.10142857142857231
+Decision Tree,TS,"2,4′-dichlorobiphenyl",4.98,4.878571428571428,0.10142857142857231
+Decision Tree,TS,Hexachlorobenzene,5.01,4.878571428571428,0.13142857142857167
+Decision Tree,TS,"2,4,4′-trichlorobiohenyl",5.09,4.878571428571428,0.21142857142857174
+Decision Tree,TS,"2,2′,5,5′-tetrachlorobiphenyl",5.09,5.266666666666667,-0.17666666666666675
+Decision Tree,TS,"2,2′,3,5′,6-pentachlorobiphenyl",5.26,5.266666666666667,-0.006666666666666821
+Decision Tree,TS,"2,2′,3,3′,4,4′-hexachlorobiphenyl",5.45,5.266666666666667,0.18333333333333357
+Decision Tree,TS,"2,2′,3,4′,5-pentachlorobiphenyl",5.51,5.743333333333333,-0.2333333333333334
+Decision Tree,TS,Chrysene,5.51,5.51,0.0
+Decision Tree,TS,"3,3′,4,4′-tetrachlorobiphenyl",5.63,5.743333333333333,-0.11333333333333329
+Decision Tree,TS,"2,3,3′,4′,6-pentachlorobiphenyl",5.63,5.743333333333333,-0.11333333333333329
+Decision Tree,TS,"2,2′,3,4′,5,5′,6-heptachlorobiphenyl",5.73,5.743333333333333,-0.013333333333332753
+Decision Tree,TS,"2,2′,3,4,4′,5-hexachlorobiphenyl",5.77,5.743333333333333,0.026666666666666394
+Decision Tree,TS,Benzo[a]pyrene,6.1,6.1,0.0
+Decision Tree,TS,"2,2′,4,4′,5,5′-hexachlorobiphenyl",6.19,5.743333333333333,0.4466666666666672
+Decision Tree,TS,"Benzo[g,h,i]perylene",6.69,6.845000000000001,-0.15500000000000025
+Decision Tree,TS,"Dibenz[a,h]anthracene",7.0,6.845000000000001,0.15499999999999936
+Decision Tree,VS,β-Hexachlorocyclohexane,2.18,2.58,-0.3999999999999999
+Decision Tree,VS,δ-Hexachlorocyclohexane,2.23,2.58,-0.3500000000000001
+Decision Tree,VS,α-Hexachlorocyclohexane,2.69,2.58,0.10999999999999988
+Decision Tree,VS,"2,2′,3,5′-tetrachlorobiphenyl",5.14,5.743333333333333,-0.6033333333333335
+Decision Tree,VS,"2,3′,4,4'-tetrachlorobiphenyl",5.26,5.266666666666667,-0.006666666666666821
+Decision Tree,VS,"2,2′,4,5,5′-pentachlorobiphenyl",5.51,5.743333333333333,-0.2333333333333334
+Decision Tree,VS,"2,3′,4,4′,5-pentachlorobiphenyl",5.71,5.743333333333333,-0.033333333333333215
+Decision Tree,VS,"2,3,3′,4,4′-pentachlorobiphenyl",5.77,5.266666666666667,0.503333333333333
+Decision Tree,VS,"2,3,3′,4,5,6-hexachlorobiphenyl",6.06,5.743333333333333,0.31666666666666643
+Decision Tree,VS,"2,2′,3,3′,4,6′-hexachlorobiphenyl",6.19,5.743333333333333,0.4466666666666672
+MLR,TRUE_EXT,Naphthalene,,3.410685351980203,
+MLR,TRUE_EXT,Nitrobenzene,,1.7252211423832153,

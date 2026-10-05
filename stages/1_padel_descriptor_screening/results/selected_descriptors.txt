@@ -1,0 +1,11 @@
+MLR:
+  Mi, RDF85p, GATS1e, RDF50m, ATSC7i
+
+kNN (k=2):
+  Mi, RDF85p
+
+PLS (n_comp=1, cala pula 64 deskr.):
+  TOP wg VIP: Mi, C2SP2, GATS1p, AATSC3i, ATSC4s, THSA, LUMO, MATS3c, ETA_dPsi_A, MDEC-33, IC1, AATSC8s, MATS4s, WPSA-3, TDB7p
+
+SVR:
+  AATSC3i, C2SP2, nTRing, PNSA-1, WPSA-3

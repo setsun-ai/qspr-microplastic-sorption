@@ -1,0 +1,3 @@
+Compound,Set,Observed_LogKd,Descriptors_used,Missing_features,Predicted_LogKd,Residual_obs_minus_pred
+Naphthalene,TRUE_EXT,,"log D, εβ, π",,3.410685351980203,
+Nitrobenzene,TRUE_EXT,,"log D, εβ, π",,1.7252211423832153,

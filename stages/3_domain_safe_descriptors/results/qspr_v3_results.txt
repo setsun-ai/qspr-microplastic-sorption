@@ -1,0 +1,20 @@
+QSPR v3 — selekcja z ochroną domeny
+
+Pula domenowo-bezpieczna: ['XLogP', 'TopoPSA', 'nAromBond']
+
+MLR: desc=['TopoPSA', 'nAromBond']
+  R²_TS=0.810 Q²_LOO=0.734 R²_VS=0.622 RMSEP=0.950
+  Naftalen=4.861  Nitrobenzen=2.515
+
+kNN(k=2): desc=['XLogP', 'TopoPSA', 'nAromBond']
+  R²_TS=0.962 Q²_LOO=0.657 R²_VS=0.784 RMSEP=0.718
+  Naftalen=5.035  Nitrobenzen=2.787
+
+PLS(LV=1): desc=['XLogP', 'TopoPSA', 'nAromBond']
+  R²_TS=0.789 Q²_LOO=0.700 R²_VS=0.541 RMSEP=1.047
+  Naftalen=4.469  Nitrobenzen=2.382
+
+SVR: desc=['XLogP', 'TopoPSA', 'nAromBond']
+  R²_TS=0.959 Q²_LOO=0.872 R²_VS=0.937 RMSEP=0.387
+  Naftalen=5.191  Nitrobenzen=2.001
+

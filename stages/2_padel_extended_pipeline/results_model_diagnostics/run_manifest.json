@@ -1,0 +1,80 @@
+{
+  "excel": "data_qsar_pls.xlsx",
+  "sheet": "PROJEKT",
+  "output": "qsar_final_model_diagnostics_outputs",
+  "target_col": "EXP LogKda",
+  "name_col": "Organic compounds",
+  "split_mode": "sorted_every_third",
+  "n_TS": 24,
+  "n_VS": 11,
+  "cv_folds": 5,
+  "random_seed": 42,
+  "models": [
+    {
+      "name": "MLR_uncorrelated",
+      "kind": "MLR",
+      "descriptors": [
+        "AATS4i",
+        "AMR",
+        "ATSC1i",
+        "minwHBa"
+      ],
+      "n_neighbors": 3,
+      "weights": "distance",
+      "svr_C": 1.0,
+      "svr_epsilon": 0.1,
+      "svr_gamma": "scale",
+      "pls_components": null,
+      "notes": "Best MLR by CV RMSE in 50-descriptor uncorrelated exhaustive run"
+    },
+    {
+      "name": "PLS_correlated_SAFE_bestVS",
+      "kind": "PLS",
+      "descriptors": [
+        "log D",
+        "TPSA",
+        "naAromAtom",
+        "AATSC1i"
+      ],
+      "n_neighbors": 3,
+      "weights": "distance",
+      "svr_C": 1.0,
+      "svr_epsilon": 0.1,
+      "svr_gamma": "scale",
+      "pls_components": 4,
+      "notes": "PLS-only correlated run, best VS RMSE among saved top 100; change if you prefer CV-rank-1 PLS"
+    },
+    {
+      "name": "EXH50_kNN_uncorrelated_CVrank1",
+      "kind": "kNN",
+      "descriptors": [
+        "GATS1i",
+        "AMR",
+        "nHeteroRing",
+        "SwHBa"
+      ],
+      "n_neighbors": 3,
+      "weights": "distance",
+      "svr_C": 1.0,
+      "svr_epsilon": 0.1,
+      "svr_gamma": "scale",
+      "pls_components": null,
+      "notes": "Best kNN by CV RMSE in 50-descriptor uncorrelated exhaustive run"
+    },
+    {
+      "name": "GA_SVR_2desc",
+      "kind": "SVR",
+      "descriptors": [
+        "ATS0p",
+        "GATS1i"
+      ],
+      "n_neighbors": 3,
+      "weights": "distance",
+      "svr_C": 1.0,
+      "svr_epsilon": 0.1,
+      "svr_gamma": "scale",
+      "pls_components": null,
+      "notes": "Best GA-SVR comparison model"
+    }
+  ]
+}

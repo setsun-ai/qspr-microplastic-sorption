@@ -1,0 +1,141 @@
+﻿Model,Model_type,Set,Organic compounds,EXP LogKda,Predicted LogKda,Residual,n_descriptors,descriptors
+MLR_uncorrelated,MLR,TS,Trimethoprim,0.594,0.5556138372675177,0.0383861627324823,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,Sulfadiazine,0.853,0.9769313672550481,-0.12393136725504816,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,VS,β-Hexachlorocyclohexane,2.18,2.364047481565386,-0.18404748156538586,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,δ-Hexachlorocyclohexane,2.23,2.364047481565386,-0.13404748156538604,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,γ-Hexachlorocyclohexane,2.58,2.364047481565386,0.21595251843461405,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,VS,α-Hexachlorocyclohexane,2.69,2.364047481565386,0.3259525184346139,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,Phenanthrene,4.0,4.287682618429265,-0.28768261842926535,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,Anthracene,4.29,4.545090424612736,-0.2550904246127361,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,VS,Pentachlorobenzene,4.5,4.7123684074319385,-0.21236840743193852,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,Fluoranthene,4.79,4.711562173919424,0.07843782608057648,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,Pyrene,4.8,4.802966395578376,-0.00296639557837608,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,VS,"2,3-dichlorobiphenyl",4.98,4.497620770054797,0.4823792299452032,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,"2,4′-dichlorobiphenyl",4.98,4.493374999309715,0.48662500069028525,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,Hexachlorobenzene,5.01,5.049905427967539,-0.03990542796753882,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,VS,"2,4,4′-trichlorobiohenyl",5.09,4.785726880568438,0.30427311943156177,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,"2,2′,5,5′-tetrachlorobiphenyl",5.09,5.289407955937903,-0.19940795593790295,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,"2,2′,3,5′-tetrachlorobiphenyl",5.14,5.289407955937903,-0.14940795593790313,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,"2,3′,4,4'-tetrachlorobiphenyl",5.26,5.147138636751405,0.11286136324859442,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,VS,"2,2′,3,5′,6-pentachlorobiphenyl",5.26,5.542030457546176,-0.28203045754617584,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,"2,2′,3,3′,4,4′-hexachlorobiphenyl",5.45,5.899892240917403,-0.44989224091740265,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,VS,"2,2′,3,4′,5-pentachlorobiphenyl",5.51,5.562990998268349,-0.05299099826834919,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,"2,2′,4,5,5′-pentachlorobiphenyl",5.51,5.563355485336799,-0.05335548533679901,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,Chrysene,5.51,5.564983806423342,-0.05498380642334233,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,VS,"3,3′,4,4′-tetrachlorobiphenyl",5.63,5.147186397778355,0.48281360222164516,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,"2,3,3′,4′,6-pentachlorobiphenyl",5.63,5.48966834099533,0.14033165900467015,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,"2,3′,4,4′,5-pentachlorobiphenyl",5.71,5.4651858949385685,0.24481410506143142,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,VS,"2,2′,3,4′,5,5′,6-heptachlorobiphenyl",5.73,6.244732591301169,-0.5147325913011684,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,"2,3,3′,4,4′-pentachlorobiphenyl",5.77,5.4651858949385685,0.30481410506143103,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,"2,2′,3,4,4′,5-hexachlorobiphenyl",5.77,5.855538619914498,-0.08553861991449807,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,VS,"2,3,3′,4,5,6-hexachlorobiphenyl",6.06,5.809443660400062,0.25055633959993795,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,Benzo[a]pyrene,6.1,6.146144630576508,-0.046144630576508305,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,"2,2′,3,3′,4,6′-hexachlorobiphenyl",6.19,5.924374686974148,0.26562531302585235,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,VS,"2,2′,4,4′,5,5′-hexachlorobiphenyl",6.19,5.899892240917389,0.29010775908261177,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,"Benzo[g,h,i]perylene",6.69,6.600124798087487,0.08987520191251352,4,AATS4i; AMR; ATSC1i; minwHBa
+MLR_uncorrelated,MLR,TS,"Dibenz[a,h]anthracene",7.0,7.095368844799731,-0.09536884479973118,4,AATS4i; AMR; ATSC1i; minwHBa
+PLS_correlated_SAFE_bestVS,PLS,TS,Trimethoprim,0.594,0.6254098728714181,-0.031409872871418165,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,Sulfadiazine,0.853,0.826337062753189,0.026662937246811014,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,VS,β-Hexachlorocyclohexane,2.18,2.4698507871391286,-0.2898507871391285,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,δ-Hexachlorocyclohexane,2.23,2.4698507871391286,-0.23985078713912866,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,γ-Hexachlorocyclohexane,2.58,2.4698507871391286,0.11014921286087143,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,VS,α-Hexachlorocyclohexane,2.69,2.4698507871391286,0.2201492128608713,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,Phenanthrene,4.0,4.233729854007703,-0.23372985400770308,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,Anthracene,4.29,4.233729854007703,0.05627014599229696,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,VS,Pentachlorobenzene,4.5,4.660898238582831,-0.16089823858283125,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,Fluoranthene,4.79,4.599792675875996,0.1902073241240041,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,Pyrene,4.8,4.5997926758759915,0.20020732412400832,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,VS,"2,3-dichlorobiphenyl",4.98,4.871623975862716,0.10837602413728487,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,"2,4′-dichlorobiphenyl",4.98,4.871623975862716,0.10837602413728487,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,Hexachlorobenzene,5.01,4.799495742430111,0.21050425756988922,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,VS,"2,4,4′-trichlorobiohenyl",5.09,5.107802294542884,-0.017802294542883956,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,"2,2′,5,5′-tetrachlorobiphenyl",5.09,5.343323133527217,-0.2533231335272168,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,"2,2′,3,5′-tetrachlorobiphenyl",5.14,5.343323133527217,-0.20332313352721698,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,"2,3′,4,4'-tetrachlorobiphenyl",5.26,5.343323133527359,-0.08332313352735898,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,VS,"2,2′,3,5′,6-pentachlorobiphenyl",5.26,5.573855320820618,-0.3138553208206183,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,"2,2′,3,3′,4,4′-hexachlorobiphenyl",5.45,5.801564442420635,-0.351564442420635,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,VS,"2,2′,3,4′,5-pentachlorobiphenyl",5.51,5.5738553208206225,-0.06385532082062273,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,"2,2′,4,5,5′-pentachlorobiphenyl",5.51,5.573855320820618,-0.06385532082061829,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,Chrysene,5.51,5.552148659364737,-0.04214865936473711,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,VS,"3,3′,4,4′-tetrachlorobiphenyl",5.63,5.343323133527354,0.28667686647264556,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,"2,3,3′,4′,6-pentachlorobiphenyl",5.63,5.57385532082069,0.056144679179309875,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,"2,3′,4,4′,5-pentachlorobiphenyl",5.71,5.57385532082069,0.13614467917930995,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,VS,"2,2′,3,4′,5,5′,6-heptachlorobiphenyl",5.73,6.0286160843249395,-0.298616084324939,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,"2,3,3′,4,4′-pentachlorobiphenyl",5.77,5.57385532082069,0.19614467917930956,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,"2,2′,3,4,4′,5-hexachlorobiphenyl",5.77,5.801564442420635,-0.03156444242063561,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,VS,"2,3,3′,4,5,6-hexachlorobiphenyl",6.06,5.801564442420635,0.2584355575793644,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,Benzo[a]pyrene,6.1,6.1079203057684515,-0.007920305768451819,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,"2,2′,3,3′,4,6′-hexachlorobiphenyl",6.19,5.80156444242064,0.38843555757936077,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,VS,"2,2′,4,4′,5,5′-hexachlorobiphenyl",6.19,5.801564442420703,0.3884355575792977,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,"Benzo[g,h,i]perylene",6.69,6.822222143037532,-0.13222214303753166,4,log D; TPSA; naAromAtom; AATSC1i
+PLS_correlated_SAFE_bestVS,PLS,TS,"Dibenz[a,h]anthracene",7.0,7.005011592739804,-0.005011592739803561,4,log D; TPSA; naAromAtom; AATSC1i
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,Trimethoprim,0.594,0.594,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,Sulfadiazine,0.853,0.853,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,VS,β-Hexachlorocyclohexane,2.18,2.4050000000000002,-0.2250000000000001,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,δ-Hexachlorocyclohexane,2.23,2.4050000000000002,-0.17500000000000027,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,γ-Hexachlorocyclohexane,2.58,2.4050000000000002,0.17499999999999982,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,VS,α-Hexachlorocyclohexane,2.69,2.4050000000000002,0.2849999999999997,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,Phenanthrene,4.0,4.145,-0.14499999999999957,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,Anthracene,4.29,4.145,0.14500000000000046,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,VS,Pentachlorobenzene,4.5,4.9034965604577465,-0.4034965604577465,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,Fluoranthene,4.79,4.795,-0.004999999999999893,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,Pyrene,4.8,4.795,0.004999999999999893,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,VS,"2,3-dichlorobiphenyl",4.98,4.964098058046377,0.015901941953623044,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,"2,4′-dichlorobiphenyl",4.98,4.98,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,Hexachlorobenzene,5.01,5.01,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,VS,"2,4,4′-trichlorobiohenyl",5.09,5.16333363373151,-0.0733336337315098,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,"2,2′,5,5′-tetrachlorobiphenyl",5.09,5.09,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,"2,2′,3,5′-tetrachlorobiphenyl",5.14,5.14,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,"2,3′,4,4'-tetrachlorobiphenyl",5.26,5.26,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,VS,"2,2′,3,5′,6-pentachlorobiphenyl",5.26,5.5587173740006826,-0.29871737400068277,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,"2,2′,3,3′,4,4′-hexachlorobiphenyl",5.45,5.45,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,VS,"2,2′,3,4′,5-pentachlorobiphenyl",5.51,5.575354498055966,-0.06535449805596638,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,"2,2′,4,5,5′-pentachlorobiphenyl",5.51,5.51,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,Chrysene,5.51,5.51,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,VS,"3,3′,4,4′-tetrachlorobiphenyl",5.63,5.194571124043686,0.43542887595631363,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,"2,3,3′,4′,6-pentachlorobiphenyl",5.63,5.63,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,"2,3′,4,4′,5-pentachlorobiphenyl",5.71,5.71,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,VS,"2,2′,3,4′,5,5′,6-heptachlorobiphenyl",5.73,5.803313089220083,-0.07331308922008262,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,"2,3,3′,4,4′-pentachlorobiphenyl",5.77,5.77,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,"2,2′,3,4,4′,5-hexachlorobiphenyl",5.77,5.77,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,VS,"2,3,3′,4,5,6-hexachlorobiphenyl",6.06,6.158365628838313,-0.09836562883831323,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,Benzo[a]pyrene,6.1,6.1,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,"2,2′,3,3′,4,6′-hexachlorobiphenyl",6.19,6.19,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,VS,"2,2′,4,4′,5,5′-hexachlorobiphenyl",6.19,5.917118033174838,0.2728819668251621,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,"Benzo[g,h,i]perylene",6.69,6.69,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+EXH50_kNN_uncorrelated_CVrank1,kNN,TS,"Dibenz[a,h]anthracene",7.0,7.0,0.0,4,GATS1i; AMR; nHeteroRing; SwHBa
+GA_SVR_2desc,SVR,TS,Trimethoprim,0.594,2.54216193944261,-1.9481619394426102,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,Sulfadiazine,0.853,2.5386060561602313,-1.6856060561602313,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,VS,β-Hexachlorocyclohexane,2.18,2.4797003407136167,-0.2997003407136165,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,δ-Hexachlorocyclohexane,2.23,2.4797003407136167,-0.2497003407136167,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,γ-Hexachlorocyclohexane,2.58,2.4797003407136167,0.1002996592863834,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,VS,α-Hexachlorocyclohexane,2.69,2.4797003407136167,0.21029965928638328,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,Phenanthrene,4.0,4.389905096579559,-0.3899050965795592,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,Anthracene,4.29,4.389905096579559,-0.09990509657955915,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,VS,Pentachlorobenzene,4.5,4.526945206541303,-0.026945206541302724,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,Fluoranthene,4.79,4.719477879062016,0.0705221209379836,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,Pyrene,4.8,4.719477879062016,0.08052212093798339,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,VS,"2,3-dichlorobiphenyl",4.98,4.733366233283471,0.24663376671652948,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,"2,4′-dichlorobiphenyl",4.98,4.733366233283471,0.24663376671652948,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,Hexachlorobenzene,5.01,4.726913380551625,0.2830866194483752,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,VS,"2,4,4′-trichlorobiohenyl",5.09,4.959596208600217,0.13040379139978242,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,"2,2′,5,5′-tetrachlorobiphenyl",5.09,5.239700295262733,-0.14970029526273354,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,"2,2′,3,5′-tetrachlorobiphenyl",5.14,5.239700295262733,-0.09970029526273372,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,"2,3′,4,4'-tetrachlorobiphenyl",5.26,5.239700295262732,0.020299704737268165,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,VS,"2,2′,3,5′,6-pentachlorobiphenyl",5.26,5.6105351943334325,-0.3505351943334327,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,"2,2′,3,3′,4,4′-hexachlorobiphenyl",5.45,5.8828833018409705,-0.43288330184097035,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,VS,"2,2′,3,4′,5-pentachlorobiphenyl",5.51,5.6105351943334325,-0.10053519433343272,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,"2,2′,4,5,5′-pentachlorobiphenyl",5.51,5.6105351943334325,-0.10053519433343272,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,Chrysene,5.51,5.40962397010773,0.10037602989226979,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,VS,"3,3′,4,4′-tetrachlorobiphenyl",5.63,5.239700295262732,0.39029970473726827,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,"2,3,3′,4′,6-pentachlorobiphenyl",5.63,5.6105351943334325,0.019464805666567386,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,"2,3′,4,4′,5-pentachlorobiphenyl",5.71,5.6105351943334325,0.09946480566656746,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,VS,"2,2′,3,4′,5,5′,6-heptachlorobiphenyl",5.73,5.830251935606702,-0.10025193560670154,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,"2,3,3′,4,4′-pentachlorobiphenyl",5.77,5.6105351943334325,0.15946480566656707,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,"2,2′,3,4,4′,5-hexachlorobiphenyl",5.77,5.8828833018409705,-0.11288330184097095,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,VS,"2,3,3′,4,5,6-hexachlorobiphenyl",6.06,5.8828833018409705,0.17711669815902908,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,Benzo[a]pyrene,6.1,6.075253373078386,0.024746626921613668,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,"2,2′,3,3′,4,6′-hexachlorobiphenyl",6.19,5.8828833018409705,0.30711669815902987,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,VS,"2,2′,4,4′,5,5′-hexachlorobiphenyl",6.19,5.8828833018409705,0.30711669815902987,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,"Benzo[g,h,i]perylene",6.69,6.289029906050135,0.4009700939498657,2,ATS0p; GATS1i
+GA_SVR_2desc,SVR,TS,"Dibenz[a,h]anthracene",7.0,6.211869980626125,0.7881300193738747,2,ATS0p; GATS1i

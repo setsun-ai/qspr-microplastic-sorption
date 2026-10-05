@@ -1,0 +1,113 @@
+{
+  "script": "qspr_final_ks_based_on_teacher.py",
+  "excel": "data_qsar_pls.xlsx",
+  "sheet": "PROJEKT",
+  "methodology": "Kennard-Stone split + TS-only descriptor filters + LOO model selection, based on qspr_v2.py",
+  "args": {
+    "excel": "data_qsar_pls.xlsx",
+    "sheet": "PROJEKT",
+    "output": "qspr_final_ks_teacher_outputs",
+    "name_col": "Organic compounds",
+    "target_col": "EXP LogKda",
+    "mw_col": "MW",
+    "set_col": "Set",
+    "exclude_cols": "",
+    "n_vs": 10,
+    "var_thresh": 1e-08,
+    "corr_y_min": 0.3,
+    "corr_xx_max": 0.85,
+    "min_desc": 2,
+    "max_desc": 4,
+    "top_allsub": 10,
+    "top_pls": 15,
+    "top_svr_rfe": 20,
+    "pls_max_lv": 8,
+    "evaluate_pls_vip": false,
+    "knn_k_min": 2,
+    "knn_k_max": 7,
+    "n_jobs": -1
+  },
+  "selected_models": [
+    {
+      "name": "MLR_allsub_TOP10_Q2LOO",
+      "family": "MLR",
+      "descriptors": [
+        "CrippenLogP",
+        "SHBa",
+        "ALogP",
+        "RDF30i"
+      ],
+      "selection_Q2_LOO": 0.9308795453424071,
+      "selection_RMSECV": 0.3940483640543421,
+      "notes": "all-subsets 2-4 descriptors from TOP-10 |r_y|; criterion=max Q2_LOO",
+      "params": {},
+      "pls_components": null,
+      "estimator": "LinearRegression()"
+    },
+    {
+      "name": "kNN_allsub_TOP10_k2",
+      "family": "kNN",
+      "descriptors": [
+        "CrippenLogP",
+        "AATS3i"
+      ],
+      "selection_Q2_LOO": 0.8454020312580229,
+      "selection_RMSECV": 0.5893158575840295,
+      "notes": "all-subsets 2-4 descriptors at k=3, then k=2..7 tuning by Q2_LOO",
+      "params": {
+        "n_neighbors": 2,
+        "weights": "uniform"
+      },
+      "pls_components": null,
+      "estimator": "KNeighborsRegressor(n_neighbors=2)"
+    },
+    {
+      "name": "PLS_TOP15_LV2",
+      "family": "PLS",
+      "descriptors": [
+        "Mi",
+        "CrippenLogP",
+        "AATS3i",
+        "XLogP",
+        "SHBa",
+        "ALogP",
+        "GATS3c",
+        "RDF30i",
+        "AATSC3s",
+        "FPSA-2",
+        "LipoaffinityIndex",
+        "εα",
+        "ATSC4s",
+        "AATS5i",
+        "RDF20i"
+      ],
+      "selection_Q2_LOO": 0.8583481857794546,
+      "selection_RMSECV": 0.5641015672243513,
+      "notes": "TOP-15 descriptors by |r_y|; LV selected by Q2_LOO/RMSECV; PLS model may use correlated predictors",
+      "params": {
+        "n_components": 2,
+        "n_raw_descriptors": 15
+      },
+      "pls_components": 2,
+      "estimator": "PLSRegression()"
+    },
+    {
+      "name": "SVR_RFE_RBF_grid",
+      "family": "SVR",
+      "descriptors": [
+        "FPSA-2",
+        "AMR"
+      ],
+      "selection_Q2_LOO": 0.9246168264434279,
+      "selection_RMSECV": 0.4115128907611316,
+      "notes": "RFE ranking on linear SVR; descriptor count 2-4; RBF SVR grid-search by LOO",
+      "params": {
+        "C": 100,
+        "epsilon": 0.1,
+        "gamma": 0.1
+      },
+      "pls_components": null,
+      "estimator": "SVR(C=100, gamma=0.1)"
+    }
+  ]
+}

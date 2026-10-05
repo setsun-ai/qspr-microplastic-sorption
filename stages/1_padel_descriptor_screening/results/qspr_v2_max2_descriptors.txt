@@ -1,0 +1,23 @@
+PODZIAŁ TS/VS (Kennard-Stone)
+  TS (25 zw.): idx [0, 1, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 18, 19, 20, 22, 23, 24, 26, 28, 30, 32, 33, 34]
+  VS (10 zw.): idx [2, 3, 5, 16, 17, 21, 25, 27, 29, 31]
+
+MLR:
+  Deskryptory: ['Mi', 'THSA']
+  R²_TS=0.929  Q²_LOO=0.907  RMSECV=0.458  R²_VS=0.931  RMSEP=0.406
+
+kNN(k=2):
+  Deskryptory: ['Mi', 'MLFER_L']
+  R²_TS=0.970  Q²_LOO=0.899  RMSECV=0.476  R²_VS=0.909  RMSEP=0.465
+
+PLS(LV=1,n=15):
+  Deskryptory: ['Mi', 'C2SP2']
+  R²_TS=0.846  Q²_LOO=0.725  RMSECV=0.786  R²_VS=0.693  RMSEP=0.856
+
+SVR:
+  Deskryptory: ['Mi', 'THSA']
+  R²_TS=0.931  Q²_LOO=0.890  RMSECV=0.498  R²_VS=0.943  RMSEP=0.369
+
+PLS VIP:
+Mi      1.114
+C2SP2   0.871
